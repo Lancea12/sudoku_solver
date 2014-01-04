@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>Sudoku Solver</title>
+  <link href='static/solver/css/solver.css' rel='stylesheet' type='text/css'></link>
+  <script src="http://code.jquery.com/jquery-2.0.3.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  <script>
+    function decode_board(){
+      {% autoescape off %}
+      var board = $.parseJSON('{{board}}');
+      {% endautoescape %}
+      return board;
+    }
+  </script>
+  <script src='static/solver/js/cell.js'> </script>
+  <script src='static/solver/js/group.js'> </script>
+  <script src='static/solver/js/row.js'> </script>
+  <script src='static/solver/js/col.js'> </script>
+  <script src='static/solver/js/tic.js'> </script>
+  <script src='static/solver/js/board.js'> </script>
+  <script src='static/solver/js/num_button.js'> </script>
+  <script src='static/solver/js/solve_button.js'> </script>
+  <script src='static/solver/js/anchor_button.js'> </script>
+  <script src='static/solver/js/clear_button.js'> </script>
+  <script src='static/solver/js/controls.js'> </script>
+  <script src='static/solver/js/solver.js'> </script>
+</head>
+<body>
+  <h2>All your sudoku are belong to us</h2>
+  <div id='board_div'>
+    <table id='board_table'>
+    </table>
+  </div>
+  <div id='controls_div'>
+    <table id='controls_table'>
+    </table>
+  </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+.cell_cell {
+  font-size:10px;
+  height:8px;
+  width:9px;
+  padding:0px;
+  padding-left:3px;
+}
+
+#board_table {
+  border-collapse:collapse;
+  border: 1px solid black;
+  cellpadding:0px;
+}
+
+.board_cell {
+  border: 1px solid black;
+  text-align:center;
+  font-size:25px;
+  height:40px;
+  width:40px;
+  padding:0px;
+}
+
+.cell_table {
+  border-collapse:collapse;
+}
+
+.board_anchor_cell {
+  font-weight:bold;
+}
+
+.tic_top {
+  border-top-width:3px;
+}
+
+.tic_bottom {
+  border-bottom-width:3px;
+}
+
+.tic_left {
+  border-left-width:3px;
+}
+
+.tic_right {
+  border-right-width:3px;
+}
+
+.selected_cell {
+  background-color:lightblue;
+}
+
+.num_button {
+  width:30px;
+}
+
+.control_button {
+  height:30px;
+}
+
+#controls_div {
+  position:absolute;
+  left:420px;
+  top:50px;
+}
