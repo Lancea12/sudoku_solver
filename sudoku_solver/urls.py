@@ -11,6 +11,7 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', 'solver.views.index.index'),
+    url(r'^board/(?P<id>\d*)/$', 'solver.views.board.get'),
 )
 
 

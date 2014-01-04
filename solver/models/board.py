@@ -4,6 +4,7 @@ from django.dispatch import receiver
 import math
 
 class Board(models.Model):
+  name = models.CharField(255)
 
   class Meta:
     app_label = "solver"
