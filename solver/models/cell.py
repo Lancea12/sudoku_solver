@@ -7,8 +7,6 @@ from solver.models.tic import Tic
 
 class Cell(models.Model):
   row = models.ForeignKey(Row)
-  column = models.ForeignKey(Column)
-  tic = models.ForeignKey(Tic)
   choices_left = models.IntegerField(default=9)
   
 
