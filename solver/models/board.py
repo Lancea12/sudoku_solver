@@ -10,7 +10,9 @@ class Board(models.Model):
     app_label = "solver"
 
   def context(self):
-    return [row.context() for row in self.row_set.all()]
+    return {'name' : self.name,
+            'rows' : row.context() for row in self.row_set.all()]
+           }
 
 
 @receiver(post_save, sender=Board)
@@ -21,9 +23,9 @@ def build_board(sender, instance, **kwargs):
   from solver.models.cell import Cell
 
   for num in range(0,9):
-    instance.row_set.create(row_num=num)
+    instance.row_set.create(row_index=num)
 
   for row in instance.row_set.all():
-    for column in instance.column_set.all():
-      Cell.objects.create(row=row)
+    for index in range(0,10):
+      Cell.objects.create(row=rowi, cell_index=index)
 
