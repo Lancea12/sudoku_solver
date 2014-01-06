@@ -1,6 +1,6 @@
 (function($){
   $.fn.num_button_control = function(num, board){
-    var button = $('<button>'+num+'</board>').button();
+    var button = $(document.body).button_control(board, {label : num});
     var opts = $.extend(this, button);
 
     this.addClass('num_button');
