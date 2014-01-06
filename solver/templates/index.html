@@ -1,27 +1,23 @@
 <html>
 <head>
 <title>Sudoku Solver</title>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
   <link href='static/solver/css/solver.css' rel='stylesheet' type='text/css'></link>
   <script src="http://code.jquery.com/jquery-2.0.3.js"></script>
   <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-  <script>
-    function decode_board(){
-      {% autoescape off %}
-      var board = $.parseJSON('{{board}}');
-      {% endautoescape %}
-      return board;
-    }
-  </script>
   <script src='static/solver/js/cell.js'> </script>
   <script src='static/solver/js/group.js'> </script>
   <script src='static/solver/js/row.js'> </script>
   <script src='static/solver/js/col.js'> </script>
   <script src='static/solver/js/tic.js'> </script>
   <script src='static/solver/js/board.js'> </script>
+  <script src='static/solver/js/load_dialog.js'> </script>
+  <script src='static/solver/js/control_button.js'> </script>
   <script src='static/solver/js/num_button.js'> </script>
   <script src='static/solver/js/solve_button.js'> </script>
   <script src='static/solver/js/anchor_button.js'> </script>
   <script src='static/solver/js/clear_button.js'> </script>
+  <script src='static/solver/js/load_button.js'> </script>
   <script src='static/solver/js/controls.js'> </script>
   <script src='static/solver/js/solver.js'> </script>
 </head>

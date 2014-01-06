@@ -151,6 +151,16 @@
     this.has_choice = function(choice){
       return (this.choices[choice-1] != undefined);
     }
+
+    this.load_data = function(cell_data){
+      this.remove_all_choices();
+      for(var choice_index=0; choice_index<9; choice_index++){
+        var choice = cell_data['choices'][choice_index];
+        if(choice != null){
+          this.add_choice(choice);
+        }
+      }
+    }
     
 
     this.choices = [];

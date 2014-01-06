@@ -13,6 +13,16 @@
       }
     }
 
+    this.load_data = function(row_data){
+      for(var cell_index=0; cell_index<9; cell_index++){
+        var cell_data = row_data['cells'][cell_index];
+        var cell = this.cells[cell_index];
+        if(cell != null && cell_data != null){
+          cell.load_data(cell_data);
+        }
+      }
+    }
+
     this.row_el = $('<tr></tr>');
     this.row_index = row_index;
     this.build_row()

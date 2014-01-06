@@ -1,16 +1,12 @@
 (function($){
   $.fn.solve_button_control = function(board){
+    var button = $(document.body).button_control(board, {label : 'Solve'});
+    var opts = $.extend(this, button);
 
-    this.build_solve_button = function (){
-      this.button_el.addClass('control_button');
-      this.button_el.click($.proxy(function(event){
-        this.board.solve();
-      }, this));
-    }
 
-    this.board = board;
-    this.button_el = $('<button>solve</board>');
-    this.build_solve_button();
+    this.click($.proxy(function(event){
+      this.board.solve();
+    }, this));
 
     return this;
   }

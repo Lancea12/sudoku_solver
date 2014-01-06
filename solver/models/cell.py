@@ -18,12 +18,3 @@ class Cell(models.Model):
             'choices' : [c.val for c in self.choice_set.all()]
            }
 
-@receiver(post_save, sender=Cell)
-def build_cell(sender, instance, **kwargs):
-  if not kwargs['created']:
-    return
-  from solver.models.choice import Choice
-
-  for num in range(1,10):
-    instance.choice_set.create(val=num)
-

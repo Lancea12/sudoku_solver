@@ -10,6 +10,6 @@ class Row(models.Model):
     app_label = "solver"
 
   def context(self):
-    return {'row_index' : self.row_num,
+    return {'row_index' : self.row_index,
             'cells' : [cell.context() for cell in self.cell_set.all()]
            }

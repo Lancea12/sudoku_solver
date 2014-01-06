@@ -7,8 +7,11 @@ import json
 from solver.models.board import Board
 
 def get(request, id):
-    (board, created) = Board.objects.get_or_create(id=id)
-    return HttpResponse(json.dumps({'board' : board.context()}))
+  (board, created) = Board.objects.get_or_create(id=id)
+  return HttpResponse(json.dumps({'board' : board.context()}))
 
+def index(request):
+  boards = Board.objects.all()
+  return HttpResponse(json.dumps([{'name' : b.name, 'id' : b.id} for b in boards]))
 
 

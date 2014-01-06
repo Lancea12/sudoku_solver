@@ -50,15 +50,17 @@
 }
 
 .num_button {
-  width:30px;
 }
 
 .control_button {
-  height:30px;
 }
 
 #controls_div {
   position:absolute;
   left:420px;
   top:50px;
+}
+
+.selected_row {
+  background-color:lightblue;
 }

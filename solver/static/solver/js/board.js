@@ -94,6 +94,23 @@
       }
     }
 
+    this.load_data = function(id){
+      $.ajax('/board/'+id, {
+        success: $.proxy(this.load_success, this),
+      });
+    }
+
+    this.load_success = function(data, textStatus, jqXHR){
+      var rows = $.parseJSON(data)['board']['rows'];
+      for(var row_index=0; row_index<9; row_index++){
+        var row_data = rows[row_index];
+        var row = this.rows[row_index];
+        if(row != null && row_data != null){
+          row.load_data(row_data)
+        }
+      }
+    }
+
 //// solving functions
 
     this.remove_redundant_choices_1 = function(){

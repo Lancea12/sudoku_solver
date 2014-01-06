@@ -11,7 +11,7 @@ class Board(models.Model):
 
   def context(self):
     return {'name' : self.name,
-            'rows' : row.context() for row in self.row_set.all()]
+            'rows' : [row.context() for row in self.row_set.all()]
            }
 
 
@@ -27,5 +27,5 @@ def build_board(sender, instance, **kwargs):
 
   for row in instance.row_set.all():
     for index in range(0,10):
-      Cell.objects.create(row=rowi, cell_index=index)
+      Cell.objects.create(row=row, cell_index=index)
 
