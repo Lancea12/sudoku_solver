@@ -11,6 +11,7 @@ class Board(models.Model):
 
   def context(self):
     return {'name' : self.name,
+            'id' : self.id,
             'rows' : [row.context() for row in self.row_set.all()]
            }
 

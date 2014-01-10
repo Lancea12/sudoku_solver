@@ -23,6 +23,16 @@
       }
     }
 
+    this.save_data = function(){
+      var data = {};
+      data.row_index = this.row_index;    
+      data.cells = [];
+      this.cells.forEach($.proxy(function(cell){
+        this.push(cell.save_data());
+      }, data.cells));
+      return data;
+    }
+
     this.row_el = $('<tr></tr>');
     this.row_index = row_index;
     this.build_row()

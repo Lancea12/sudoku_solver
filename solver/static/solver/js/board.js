@@ -15,7 +15,7 @@
         var tic = $(document.body).board_tic(this, tic_index);
         this.tics.push(tic);
       }
-      this.build_keystroke();
+      this.setup_keystroke_handler();
       this.solve_rules.push($.proxy(this.remove_redundant_choices_1, this));
       this.solve_rules.push($.proxy(this.remove_dead_choices_1, this));
     }
@@ -28,8 +28,11 @@
       this.rows[row].cells[col].toggle_choice(ch);
     }
 
-    this.build_keystroke = function(){
-      $(document).keydown($.proxy(function(event){
+    this.setup_keystroke_handler = function(){
+      $(document).keydown(this.key_handler);
+    }
+ 
+    this.key_handler = $.proxy(function(event){
         if(event.keyCode >= 49 && event.keyCode <= 57 && this.selected_cell != null){
           this.selected_cell.toggle_choice(event.keyCode - 48);
         }
@@ -59,7 +62,10 @@
        if(event.keyCode == 8 || event.keyCode == 46){
          this.selected_cell.remove_all_choices();
        }
-      }, this));
+    }, this);
+
+    this.remove_keystroke_handler = function(){
+      $(document).off("keydown", this.key_handler); 
     }
 
 
@@ -94,14 +100,29 @@
       }
     }
 
+    this.json_output = function(){
+      var json_data = {};
+      json_data.name = this.name;
+      json_data.id = this.id;
+      json_data.rows = [];
+      this.rows.forEach($.proxy(function(row){
+        this.push(row.save_data());
+      }, json_data.rows));
+
+      return JSON.stringify({board : json_data});
+    }
+
     this.load_data = function(id){
-      $.ajax('/board/'+id, {
+      $.ajax('/board/'+id+'/', {
         success: $.proxy(this.load_success, this),
       });
     }
 
     this.load_success = function(data, textStatus, jqXHR){
-      var rows = $.parseJSON(data)['board']['rows'];
+      var board_data = JSON.parse(data)['board'];
+      var rows = board_data['rows'];
+      this.name = board_data['name'];
+      this.id = board_data['id'];
       for(var row_index=0; row_index<9; row_index++){
         var row_data = rows[row_index];
         var row = this.rows[row_index];
@@ -109,6 +130,19 @@
           row.load_data(row_data)
         }
       }
+    }
+
+    this.save_data = function(){
+      $.ajax('/board/'+this.id+'/', {
+        success: $.proxy(this.save_success, this),
+        type: 'POST', 
+        dataType: 'json',
+        data: this.json_output(),
+      }); 
+    }
+
+    this.save_success = function(data, textStatus, jqXHR){
+
     }
 
 //// solving functions

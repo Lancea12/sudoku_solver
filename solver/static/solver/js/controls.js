@@ -33,8 +33,8 @@
       col = $('<td colspan=3></td>');
       var load_button = $(document.body).load_button_control(board);
       col.append(load_button);
-      //var save_button = $(document.body).save_button_control(board);
-      //col.append(save_button);
+      var save_button = $(document.body).save_button_control(board);
+      col.append(save_button);
       row.append(col);
       this.table_el.append(row);
       

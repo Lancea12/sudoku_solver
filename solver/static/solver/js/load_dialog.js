@@ -4,8 +4,8 @@
       options = {};
     }
     var di = $("<div id='load_dialog' title='Load Board'></div>").dialog();
-    di  = di.dialog('close');
     var opts = $.extend(this, di);
+    this.dialog('close');
 
     this.build_dialog = function (){
       this.table = $('<table></table>');
@@ -13,6 +13,7 @@
       var lb = $('<button>Load</button>');
       lb.click($.proxy(function(event){
         this.board.load_data(this.selected_id);
+        this.dialog('close');
       }, this));
       this.append(lb);
     }
@@ -25,7 +26,7 @@
 
 
     this.list_success = function(data, textStatus, jqXHR){
-      var list = $.parseJSON(data);
+      var list = JSON.parse(data);
       list.forEach($.proxy(function(val){
         var list_row = $('<tr><td>'+val.name+'</td></tr>');
         list_row.list = this;

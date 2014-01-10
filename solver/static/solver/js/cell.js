@@ -161,6 +161,13 @@
         }
       }
     }
+
+    this.save_data = function(){
+      var data = {};
+      data.cell_index = this.cell_index;
+      data.choices = this.choices;
+      return data;
+    }
     
 
     this.choices = [];
