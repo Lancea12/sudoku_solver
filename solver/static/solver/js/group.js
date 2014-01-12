@@ -1,5 +1,5 @@
 (function($){
-  $.fn.board_group = function(board){
+  $.fn.board_group = function(board, group_index){
 
     this.fill_choices = function(){
       for(var index in this.cells){
@@ -10,7 +10,7 @@
       }
     }
 
-    this.remove_redundant_choices_1 = function(){
+    this.remove_redundant_choices = function(){
       var mod = false;
       for(var test_index in this.cells){
         var test_cell = this.cells[test_index];
@@ -60,7 +60,7 @@
       return true;
     }
   
-
+    this.group_index = group_index;
     this.cells = [];
     this.board = board;
 

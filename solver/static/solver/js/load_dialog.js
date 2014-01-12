@@ -21,12 +21,12 @@
     this.load_list = function(){
       $.ajax('/board/', {
         success: $.proxy(this.list_success, this),
+        dataType: 'json',
       });
     }
 
 
-    this.list_success = function(data, textStatus, jqXHR){
-      var list = JSON.parse(data);
+    this.list_success = function(list, textStatus, jqXHR){
       list.forEach($.proxy(function(val){
         var list_row = $('<tr><td>'+val.name+'</td></tr>');
         list_row.list = this;

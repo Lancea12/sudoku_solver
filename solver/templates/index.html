@@ -24,6 +24,7 @@
   <script src='static/solver/js/solver.js'> </script>
 </head>
 <body>
+  <form id='csrf_form'>{% csrf_token %} </form>
   <h2>All your sudoku are belong to us</h2>
   <div id='board_div'>
     <table id='board_table'>

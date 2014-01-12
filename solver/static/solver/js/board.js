@@ -16,7 +16,7 @@
         this.tics.push(tic);
       }
       this.setup_keystroke_handler();
-      this.solve_rules.push($.proxy(this.remove_redundant_choices_1, this));
+      this.solve_rules.push($.proxy(this.remove_redundant_choices, this));
       this.solve_rules.push($.proxy(this.remove_dead_choices_1, this));
     }
 
@@ -109,17 +109,18 @@
         this.push(row.save_data());
       }, json_data.rows));
 
-      return JSON.stringify({board : json_data});
+      return JSON.stringify(json_data);
     }
 
     this.load_data = function(id){
       $.ajax('/board/'+id+'/', {
         success: $.proxy(this.load_success, this),
+        dataType: 'json',
       });
     }
 
     this.load_success = function(data, textStatus, jqXHR){
-      var board_data = JSON.parse(data)['board'];
+      var board_data = data['board'];
       var rows = board_data['rows'];
       this.name = board_data['name'];
       this.id = board_data['id'];
@@ -133,21 +134,30 @@
     }
 
     this.save_data = function(){
-      $.ajax('/board/'+this.id+'/', {
+      var data = {};
+      data['csrfmiddlewaretoken'] = $('#csrf_form input[name="csrfmiddlewaretoken"]')[0].value;
+      data['board'] = this.json_output(); 
+      var url = '/board/';
+      if(this.id != undefined){
+        url += this.id+'/';
+      }
+      $.ajax(url, {
         success: $.proxy(this.save_success, this),
         type: 'POST', 
         dataType: 'json',
-        data: this.json_output(),
+        data: data,
       }); 
     }
 
     this.save_success = function(data, textStatus, jqXHR){
-
+      if(data['saved']){
+        this.id = data['id'];
+      }
     }
 
 //// solving functions
 
-    this.remove_redundant_choices_1 = function(){
+    this.remove_redundant_choices = function(){
       var mod = false;
       if(this.remove_redundant_from_group(this.rows)) mod = true;
       if(this.remove_redundant_from_group(this.cols)) mod = true;
@@ -169,7 +179,7 @@
       var mod = false;
       for(var index in group){
         var member = group[index];
-        if(member.remove_redundant_choices_1()){
+        if(member.remove_redundant_choices()){
           mod = true;
         }
       }

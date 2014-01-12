@@ -1,1 +1,1 @@
-web: gunicorn sudoku_solver.wsgi
+web: gunicorn --log-config gunicorn.conf sudoku_solver.wsgi

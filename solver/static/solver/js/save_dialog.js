@@ -17,14 +17,13 @@
         this.board.name = this.text.val();
         $.ajax('/board/', {
           success: $.proxy(this.list_success, this),
+          dataType: 'json',
         });
-        board.save_data();
       }, this));
       this.append(lb);
     }
 
-    this.list_success = function(data, textStatus, jqXHR){
-      var list = JSON.parse(data);
+    this.list_success = function(list, textStatus, jqXHR){
       this.exists = false;
       list.forEach($.proxy(function(val){
         if(val['name'] == board.name && val['id'] != board.id){
