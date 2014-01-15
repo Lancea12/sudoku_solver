@@ -5,11 +5,10 @@
 
 
     this.click($.proxy(function(event){
-      this.di.load_list();
-      this.di.dialog('open');
+      board.remove_keystroke_handler();
+      $(document.body).load_dialog(board);
     }, this));
 
-    this.di = $(document.body).load_dialog(board);
 
     return this;
   }

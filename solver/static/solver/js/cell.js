@@ -94,6 +94,19 @@
       return true;
     }
 
+    this.remove_choices = function(ch_arr){
+      //this.mod = false;
+      var mod = false;
+      ch_arr.forEach(function(choice){
+        if(this.remove_choice(choice)){
+           mod = true;
+           //this.mod = true;
+        }
+      }, this);    
+     return mod;
+     //return this.mod;
+    }
+
     this.remove_choice = function(ch){
       if(ch < 1 || ch > 9){
         return false;
@@ -105,6 +118,18 @@
       this.num_choices--;
       this.update_display();
       return true;
+    }
+
+    this.choices_issubset = function(test_choices){
+      var issubset = true;
+      this.choices.every(function(choice){
+        if(test_choices.indexOf(choice) == -1){
+          issubset= false;
+          return false;
+        }
+        return true;
+      }, this);
+      return issubset;
     }
 
     this.toggle_choice = function(ch){
@@ -136,6 +161,15 @@
       }
     }
 
+    this.remove_all_but_one_choice = function(choice){
+      if(this.choices.element_count() == 1 && this.choices[choice-1] == choice){
+        return false;
+      }
+      this.remove_all_choices();
+      this.add_choice(choice);
+      return true;
+    }
+
     this.get_single_choice = function(){
       if(this.num_choices != 1){
         return null;
@@ -160,14 +194,27 @@
           this.add_choice(choice);
         }
       }
+
+      // have to set anchored cell at the end because it locks out changes
+      this.set_anchor_cell(cell_data['anchored']);
     }
 
     this.save_data = function(){
       var data = {};
       data.cell_index = this.cell_index;
-      data.choices = this.choices;
+      data.choices = this.get_choices();
+      data.anchored = this.anchor_cell;
       return data;
     }
+
+    this.get_choices = function(){
+      var choices = [];
+      this.choices.forEach(function(choice){
+        choices.push(choice);
+      }, this);
+      return choices;
+    }
+    
     
 
     this.choices = [];

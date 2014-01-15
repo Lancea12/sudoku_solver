@@ -5,17 +5,17 @@
     }
     var di = $("<div id='load_dialog' title='Load Board'></div>").dialog();
     var opts = $.extend(this, di);
-    this.dialog('close');
 
     this.build_dialog = function (){
       this.table = $('<table></table>');
       this.append(this.table);
       var lb = $('<button>Load</button>');
       lb.click($.proxy(function(event){
-        this.board.load_data(this.selected_id);
+        this.board.load_data(this.selected_id, this);
         this.dialog('close');
       }, this));
       this.append(lb);
+      this.load_list();
     }
 
     this.load_list = function(){

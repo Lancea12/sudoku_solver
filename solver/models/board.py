@@ -7,6 +7,7 @@ import logging
 
 class Board(models.Model):
   name = models.CharField(max_length=255)
+  anchored = models.BooleanField(default=False)
 
   logger = logging.getLogger('solver')
 
@@ -17,19 +18,21 @@ class Board(models.Model):
   def context(self):
     return {'name' : self.name,
             'id' : self.id,
+            'anchored' : self.anchored,
             'rows' : [row.context() for row in self.row_set.extra(order_by = ['row_index'])]
            }
 
   def update(self, data):
     self.logger.debug('updating board')
     self.name = data['name']
+    self.anchored = data['anchored']
     row_data = data['rows']
     for row in self.row_set.extra(order_by = ['row_index']):
       self.logger.debug(row.row_index)
       if(not row.update(row_data.__getitem__(row.row_index))):
         return False
     self.save()
-    return False
+    return True
     
 
 

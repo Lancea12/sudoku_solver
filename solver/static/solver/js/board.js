@@ -70,10 +70,10 @@
 
 
     this.fill_choices = function(){
-      for(var index in this.rows){
-        var row = this.rows[index];
+      this.rows.forEach($.proxy(function(row){
+        var row = row;
         row.fill_choices();
-      }
+      }, this));
     }
 
     this.toggle_anchor_base = function(){
@@ -87,23 +87,22 @@
           }
         }
       }
-      return this.base_anchored;;
+      return this.base_anchored;
     }
 
     this.clear = function(){
-      for(var row_index in this.rows){
-        var row = this.rows[row_index];
-        for(var cell_index in row.cells){
-          var cell = row.cells[cell_index];
+      this.rows.forEach(function(row){
+        row.cells.forEach(function(cell){
           cell.remove_all_choices();
-        }
-      }
+        }, this);
+      }, this);
     }
 
     this.json_output = function(){
       var json_data = {};
       json_data.name = this.name;
       json_data.id = this.id;
+      json_data.anchored = this.base_anchored;
       json_data.rows = [];
       this.rows.forEach($.proxy(function(row){
         this.push(row.save_data());
@@ -112,18 +111,19 @@
       return JSON.stringify(json_data);
     }
 
-    this.load_data = function(id){
+    this.load_data = function(id, dialog){
       $.ajax('/board/'+id+'/', {
-        success: $.proxy(this.load_success, this),
+        success: $.proxy(this.load_success, this, dialog),
         dataType: 'json',
       });
     }
 
-    this.load_success = function(data, textStatus, jqXHR){
+    this.load_success = function(dialog, data, textStatus, jqXHR){
       var board_data = data['board'];
       var rows = board_data['rows'];
       this.name = board_data['name'];
       this.id = board_data['id'];
+      this.base_anchored = board_data['anchored'];
       for(var row_index=0; row_index<9; row_index++){
         var row_data = rows[row_index];
         var row = this.rows[row_index];
@@ -131,9 +131,11 @@
           row.load_data(row_data)
         }
       }
+      dialog.dialog('close');
+      this.setup_keystroke_handler();
     }
 
-    this.save_data = function(){
+    this.save_data = function(dialog){
       var data = {};
       data['csrfmiddlewaretoken'] = $('#csrf_form input[name="csrfmiddlewaretoken"]')[0].value;
       data['board'] = this.json_output(); 
@@ -142,17 +144,26 @@
         url += this.id+'/';
       }
       $.ajax(url, {
-        success: $.proxy(this.save_success, this),
+        success: $.proxy(this.save_success, this, dialog),
+        error: $.proxy(this.save_failure, this, dialog),
         type: 'POST', 
         dataType: 'json',
         data: data,
       }); 
     }
 
-    this.save_success = function(data, textStatus, jqXHR){
+    this.save_success = function(dialog, data, textStatus, jqXHR){
       if(data['saved']){
         this.id = data['id'];
+        dialog.dialog('close');
+        this.setup_keystroke_handler();
+      }else{
+        this.save_failure(dialog, data, textStatus, jqXHR);
       }
+    }
+
+    this.save_failure = function(dialog, data, textStatus, jqXHR){
+        dialog.append($('<p>Save Unsuccessful</p>'));
     }
 
 //// solving functions
@@ -177,23 +188,21 @@
 
     this.remove_redundant_from_group = function(group){
       var mod = false;
-      for(var index in group){
-        var member = group[index];
+      group.forEach(function(member){
         if(member.remove_redundant_choices()){
           mod = true;
         }
-      }
+      }, this);
       return mod;
     }
 
     this.remove_dead_from_group = function(group){
       var mod = false;
-      for(var index in group){
-        var member = group[index];
+      group.forEach(function(member){
         if(member.remove_dead_choices_1()){
           mod = true;
         }
-      }
+      }, this);
       return mod;
     }
 

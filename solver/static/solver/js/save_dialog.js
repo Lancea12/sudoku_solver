@@ -21,6 +21,11 @@
         });
       }, this));
       this.append(lb);
+
+      this.on('dialogclose', $.proxy(function(){
+        this.board.setup_keystroke_handler();
+      }, this));
+
     }
 
     this.list_success = function(list, textStatus, jqXHR){
@@ -32,7 +37,7 @@
         }
       }, this));
       if(!this.exists){
-        this.board.save_data();
+        this.board.save_data(this);
       }
     }
 

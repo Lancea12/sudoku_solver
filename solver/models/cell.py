@@ -10,6 +10,7 @@ import logging
 class Cell(models.Model):
   row = models.ForeignKey(Row)
   cell_index = models.IntegerField()
+  anchored = models.BooleanField(default=False)
   
   logger = logging.getLogger('solver')
 
@@ -18,11 +19,14 @@ class Cell(models.Model):
 
   def context(self):
     return {'cell_index' : self.cell_index,
-            'choices' : [c.val for c in self.choice_set.all()]
+            'anchored' : self.anchored,
+            'choices' : [c.val for c in self.choice_set.all()],
            }
 
   def update(self, data):
     choice_data = data['choices']
+    self.anchored = data['anchored']
+    self.logger.debug('setting anchored: %r' % self.anchored)
     for choice_val in range(1,10):
       if(choice_val in choice_data):
         self.logger.debug('adding choice: %d to row %d col %d' % (choice_val, self.row.row_index, self.cell_index))
