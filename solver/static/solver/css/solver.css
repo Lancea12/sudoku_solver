@@ -64,3 +64,14 @@
 .selected_row {
   background-color:lightblue;
 }
+
+#board_name {
+  position: relative;
+  left: 25px;
+}
+
+h3 {
+  color: blue;
+}
+
+

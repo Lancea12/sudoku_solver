@@ -7,9 +7,7 @@ import json
 from solver.models.board import Board
 
 def index(request):
-    (board, created) = Board.objects.get_or_create(id=1)
-    board.save()
     template = loader.get_template('index.html')
-    context = RequestContext(request, {'board' : json.dumps(board.context())})
+    context = RequestContext(request, {'board_list' : Board.objects.values()})
     return HttpResponse(template.render(context))
 

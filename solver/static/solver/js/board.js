@@ -1,5 +1,5 @@
 (function($){
-  $.fn.board_table = function(table_el){
+  $.fn.board_table = function(table_el, id){
 
     this.build_table = function (){
       for(var row_index=0; row_index < 9; row_index++){
@@ -111,17 +111,18 @@
       return JSON.stringify(json_data);
     }
 
-    this.load_data = function(id, dialog){
-      $.ajax('/board/'+id+'/', {
-        success: $.proxy(this.load_success, this, dialog),
+    this.load_data = function(){
+      $.ajax('/board.json/'+this.id+'/', {
+        success: $.proxy(this.load_success, this),
         dataType: 'json',
       });
     }
 
-    this.load_success = function(dialog, data, textStatus, jqXHR){
+    this.load_success = function(data, textStatus, jqXHR){
       var board_data = data['board'];
       var rows = board_data['rows'];
       this.name = board_data['name'];
+      $('#board_name').html(this.name);
       this.id = board_data['id'];
       this.base_anchored = board_data['anchored'];
       for(var row_index=0; row_index<9; row_index++){
@@ -131,8 +132,6 @@
           row.load_data(row_data)
         }
       }
-      dialog.dialog('close');
-      this.setup_keystroke_handler();
     }
 
     this.save_data = function(dialog){
@@ -226,12 +225,30 @@
     this.rows = [];
     this.cols = [];
     this.tics = [];
+    this.name = "Untitled"
+    this.id = id;
     this.table_el = table_el; 
     this.selected_cell = null;
     this.base_anchored = false;
     this.build_table();
 
+
     return this;
   }
+
+//// static functions
+
+
+  $.fn.board_table.delete_data = function(id){
+    $.ajax('/board/delete/'+id+'/', {
+      success: $.fn.board_table.delete_success,
+    });
+  }
+
+  $.fn.board_table.delete_success = function(data, textStatus, jqXHR){
+  }
+
+
+
 
 })(jQuery);
