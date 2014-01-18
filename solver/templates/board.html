@@ -14,12 +14,13 @@
   <script src='/static/solver/js/load_dialog.js'> </script>
   <script src='/static/solver/js/save_dialog.js'> </script>
   <script src='/static/solver/js/control_button.js'> </script>
+  <script src='/static/solver/js/control_link.js'> </script>
   <script src='/static/solver/js/num_button.js'> </script>
-  <script src='/static/solver/js/solve_button.js'> </script>
-  <script src='/static/solver/js/anchor_button.js'> </script>
-  <script src='/static/solver/js/clear_button.js'> </script>
-  <script src='/static/solver/js/load_button.js'> </script>
-  <script src='/static/solver/js/save_button.js'> </script>
+  <script src='/static/solver/js/solve_link.js'> </script>
+  <script src='/static/solver/js/anchor_link.js'> </script>
+  <script src='/static/solver/js/clear_link.js'> </script>
+  <script src='/static/solver/js/load_link.js'> </script>
+  <script src='/static/solver/js/save_link.js'> </script>
   <script src='/static/solver/js/controls.js'> </script>
   <script src='/static/solver/js/util.js'> </script>
   <script>
@@ -34,6 +35,12 @@ $(function(fn){
   bt.load_data();
   var controls_el = $('#controls_table')
   var con = $(document.body).board_controls(controls_el, bt);
+  var con_div = $('#controls_div');
+  if(window.innerWidth > window.innerHeight){
+    con_div.offset({left: 420, top: 100});
+  }else{
+    con_div.offset({left: 50, top: 500});
+  }
 })
   </script>
 </head>

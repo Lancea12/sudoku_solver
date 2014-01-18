@@ -1,7 +1,7 @@
 (function($){
-  $.fn.anchor_button_control = function(board){
-    var button = $(document.body).button_control(board, {label : 'Anchor'});
-    var opts = $.extend(this, button);
+  $.fn.anchor_link_control = function(board){
+    var link = $(document.body).control_link(board, {label : 'Anchor'});
+    var opts = $.extend(this, link);
 
 
     this.click($.proxy(function(event){
@@ -12,6 +12,8 @@
       }
     }, this));
 
+    this.addClass('ui-icon-pin-s');
+   
     return this;
   }
 

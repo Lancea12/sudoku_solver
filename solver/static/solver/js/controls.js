@@ -15,28 +15,38 @@
       }
       var row = $('<tr></tr>');
       var col = $('<td colspan=3></td>');
-      var solve_button = $(document.body).solve_button_control(board);
+      var inner_table = $('<table></table>');
+      col.append(inner_table);
+      row.append(col);
+      this.table_el.append(row);
+      
+      row = $('<tr></tr>');
+      inner_table.append(row);
+
+      col = $('<td></td>');
+      row.append(col);
+      var solve_button = $(document.body).solve_link_control(board);
       col.append(solve_button);
-      var anchor_button = $(document.body).anchor_button_control(board);
+
+      col = $('<td></td>');
+      row.append(col);
+      var anchor_button = $(document.body).anchor_link_control(board);
       col.append(anchor_button);
-      row.append(col);
-      this.table_el.append(row);
 
-      row = $('<tr></tr>');
-      col = $('<td colspan=3></td>');
-      var clear_button = $(document.body).clear_button_control(board);
+      col = $('<td></td>');
+      row.append(col);
+      var clear_button = $(document.body).clear_link_control(board);
       col.append(clear_button);
-      row.append(col);
-      this.table_el.append(row);
 
-      row = $('<tr></tr>');
-      col = $('<td colspan=3></td>');
-      var load_button = $(document.body).load_button_control(board);
-      col.append(load_button);
-      var save_button = $(document.body).save_button_control(board);
-      col.append(save_button);
+      col = $('<td></td>');
       row.append(col);
-      this.table_el.append(row);
+      var load_link = $(document.body).load_link_control(board);
+      col.append(load_link);
+
+      col = $('<td></td>');
+      row.append(col);
+      var save_link = $(document.body).save_link_control(board);
+      col.append(save_link);
       
     }
 

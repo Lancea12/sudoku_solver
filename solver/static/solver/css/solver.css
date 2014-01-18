@@ -50,6 +50,8 @@
 }
 
 .num_button {
+  width: 80px;
+  height: 80px;
 }
 
 .control_button {
@@ -57,8 +59,12 @@
 
 #controls_div {
   position:absolute;
-  left:420px;
-  top:50px;
+  width: 300px%;
+  height: 400px%;
+}
+
+#controls_table {
+  width: 100%;
 }
 
 .selected_row {
@@ -74,4 +80,31 @@ h3 {
   color: blue;
 }
 
+#board_list_table {
+  border-collapse: collapse;
+  width: 75%;
+}
 
+.new_board_cell {
+  border-top: 3px solid black;
+}
+
+.first_row {
+  background-color: lightgray;
+}
+
+.second_row {
+  background-color: white;
+}
+
+.board_icon {
+  color: lightblue;
+}
+
+.ui-icon {
+  background-image: url(http://download.jqueryui.com/themeroller/images/ui-icons_6495ED_256x240.png);
+}
+
+#board_div {
+  width: 80%;
+}

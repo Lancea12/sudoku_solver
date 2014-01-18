@@ -242,10 +242,12 @@
   $.fn.board_table.delete_data = function(id){
     $.ajax('/board/delete/'+id+'/', {
       success: $.fn.board_table.delete_success,
+      dataType: 'json',
     });
   }
 
   $.fn.board_table.delete_success = function(data, textStatus, jqXHR){
+    $('#board_' + data.id).detach();
   }
 
 
