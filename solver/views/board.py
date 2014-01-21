@@ -5,38 +5,46 @@ from django.db.models.signals import post_save
 import json
 
 from solver.models.board import Board
+from solver.models.user import User
 
-def get(request, id):
+def get(request, user_id, board_id):
   if(request.method == "PUT" or request.method == "POST"):
-    return create_or_update(request, id)
-  (board, created) = Board.objects.get_or_create(id=id)
-  return HttpResponse(json.dumps({'board' : board.context()}))
+    return create_or_update(request, user_id, board_id)
+  (user, created) = User.objects.get_or_create(id=user_id)
+  board = user.board_set.get_or_create(id=board_id)
+  return HttpResponse(json.dumps({'user_id' : user_id, 'board' : board.context()}))
 
-def create_or_update(request, id):
-  if(id != None):
-    (board, created) = Board.objects.get_or_create(id=id)
+def create_or_update(request, user_id, board_id):
+  (user, created) = User.objects.get_or_create(id=user_id)
+  if(board_id != None):
+    (board, created) = user.board_set.get_or_create(user=user, id=board_id)
   else:
-    board = Board.objects.create()
-    id = board.id
+    board = user.board_set.create(user=user)
 
   data = json.loads(request.POST['board'])
   
   if(data == None):
     return HttpResponse("failed json load")
   saved = board.update(data)
-  return HttpResponse(json.dumps({'saved': saved, 'id': int(id)}))
+  return HttpResponse(json.dumps({
+     'saved': saved, 'user_id': user.id, 'board_id': board.id
+  }))
   
 
-def list(request):
+def list(request, user_id):
   if(request.method == "PUT" or request.method == "POST"):
-    return create_or_update(request, None)
-  boards = Board.objects.all()
-  return HttpResponse(json.dumps([{'name' : b.name, 'id' : b.id} for b in boards]))
+    return create_or_update(request, user_id, None)
+  (user, created) = User.objects.get_or_create(id=user_id)
+  boards = user.board_set.all()
+  user_context = {'user_id' : user_id, 
+                  'boards' : [{'name' : b.name, 'id' : b.id} for b in boards]
+                 }
+  return HttpResponse(json.dumps(user_context))
 
 
-def index(request, id=-1):
+def index(request, user_id, board_id=-1):
   template = loader.get_template('board.html')
-  context = RequestContext(request, {'id': id})
+  context = RequestContext(request, {'user_id' : user_id, 'board_id': board_id})
   return HttpResponse(template.render(context))
 
 def delete(request, id):

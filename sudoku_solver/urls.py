@@ -11,10 +11,11 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', 'solver.views.index.index'),
-    url(r'^board.html$', 'solver.views.board.index'),
-    url(r'^board.html/(?P<id>\d*)/$', 'solver.views.board.index'),
-    url(r'^board/$', 'solver.views.board.list'),
-    url(r'^board.json/(?P<id>\d*)/$', 'solver.views.board.get'),
+    url(r'^user/(?P<id>\d*)/$', 'solver.views.user.index'),
+    url(r'^user/(?P<user_id>\d*)/board.html/(?P<board_id>\d*)/$', 'solver.views.board.index'),
+    url(r'^user/(?P<user_id>\d*)/board.html$', 'solver.views.board.index'),
+    url(r'^user/(?P<user_id>\d*)/board/$', 'solver.views.board.list'),
+    url(r'^user/(?P<user_id>\d*)/board.json/(?P<board_id>\d*)/$', 'solver.views.board.get'),
     url(r'^board/delete/(?P<id>\d*)/$', 'solver.views.board.delete'),
 )
 

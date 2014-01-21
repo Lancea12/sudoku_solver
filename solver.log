@@ -1084,3 +1084,106 @@ setting anchored: True
 adding choice: 9 to row 8 col 7
 setting anchored: False
 adding choice: 6 to row 8 col 8
+updating board
+0
+data len=9 cells len=9
+setting anchored: False
+adding choice: 1 to row 0 col 0
+setting anchored: False
+adding choice: 2 to row 0 col 1
+setting anchored: False
+adding choice: 3 to row 0 col 2
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+1
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+2
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+3
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+4
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+5
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+6
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+7
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+8
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False

@@ -1,11 +1,12 @@
-from django.http import HttpResponse
 from django.db import models
 from django.db.models.signals import post_save
 from django.dispatch import receiver
+from solver.models.user import User
 import math
 import logging
 
 class Board(models.Model):
+  user = models.ForeignKey(User)
   name = models.CharField(max_length=255)
   anchored = models.BooleanField(default=False)
 

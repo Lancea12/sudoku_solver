@@ -1,5 +1,5 @@
 (function($){
-  $.fn.board_table = function(table_el, id){
+  $.fn.board_table = function(table_el, user_id, id){
 
     this.build_table = function (){
       for(var row_index=0; row_index < 9; row_index++){
@@ -138,7 +138,7 @@
       var data = {};
       data['csrfmiddlewaretoken'] = $('#csrf_form input[name="csrfmiddlewaretoken"]')[0].value;
       data['board'] = this.json_output(); 
-      var url = '/board/';
+      var url = '/user/' + this.user_id + '/board/';
       if(this.id != undefined){
         url += this.id+'/';
       }
@@ -153,7 +153,7 @@
 
     this.save_success = function(dialog, data, textStatus, jqXHR){
       if(data['saved']){
-        this.id = data['id'];
+        this.id = data['board_id'];
         dialog.dialog('close');
         this.setup_keystroke_handler();
       }else{
@@ -221,6 +221,7 @@
     }
 
 
+    this.user_id = user_id;
     this.solve_rules = [];
     this.rows = [];
     this.cols = [];

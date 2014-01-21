@@ -27,12 +27,14 @@
 $(function(fn){
 
   var board_el = $('#board_table');
-  var id = {{ id }};
+  var id = {{ board_id }};
   if(id == -1){
     id = null;
   }
-  var bt = $(document.body).board_table(board_el, id);
-  bt.load_data();
+  var bt = $(document.body).board_table(board_el, {{ user_id }}, id);
+  if(bt.id != null){
+    bt.load_data();
+  }
   var controls_el = $('#controls_table')
   var con = $(document.body).board_controls(controls_el, bt);
   var con_div = $('#controls_div');
