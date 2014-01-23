@@ -35,6 +35,7 @@
 
     this.row_el = $('<tr></tr>');
     this.build_row()
+    this.group_name = 'row';
 
     return this;
   }

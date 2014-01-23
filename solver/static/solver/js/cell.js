@@ -223,6 +223,7 @@
     this.row = row;
     this.row_index = row_index;
     this.col_index = col_index;
+    this.tic_index = (row_index - (row_index % 3)) + (col_index - (col_index %3))/3;
     this.cell_el = $('<td></td>');
     this.table_el = $('<table></table>');
     this.table_displayed = 0;

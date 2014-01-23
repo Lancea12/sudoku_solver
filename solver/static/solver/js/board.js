@@ -18,6 +18,7 @@
       this.setup_keystroke_handler();
       this.solve_rules.push($.proxy(this.remove_redundant_choices, this));
       this.solve_rules.push($.proxy(this.remove_dead_choices_1, this));
+      this.solve_rules.push($.proxy(this.remove_cross_redundant_cells, this));
     }
 
     this.add_choice = function(row, col, ch){
@@ -112,7 +113,7 @@
     }
 
     this.load_data = function(){
-      $.ajax('/board.json/'+this.id+'/', {
+      $.ajax('/user/' + this.user_id + '/board.json/'+this.id+'/', {
         success: $.proxy(this.load_success, this),
         dataType: 'json',
       });
@@ -134,14 +135,17 @@
       }
     }
 
-    this.save_data = function(dialog){
+    this.save_data = function(dialog, name){
+      var url = '/user/' + this.user_id + '/board/';
+      if(this.id != undefined && this.name == name){
+        url += this.id+'/';
+      }else{
+        this.name = name;
+        url += 'create/';
+      }
       var data = {};
       data['csrfmiddlewaretoken'] = $('#csrf_form input[name="csrfmiddlewaretoken"]')[0].value;
       data['board'] = this.json_output(); 
-      var url = '/user/' + this.user_id + '/board/';
-      if(this.id != undefined){
-        url += this.id+'/';
-      }
       $.ajax(url, {
         success: $.proxy(this.save_success, this, dialog),
         error: $.proxy(this.save_failure, this, dialog),
@@ -184,6 +188,15 @@
       return mod;
     }
 
+    this.remove_cross_redundant_cells = function(){
+      var mod = false;
+      if(this.remove_cross_redundant_from_group(this.tics, 'row')) mod = true;
+      if(this.remove_cross_redundant_from_group(this.tics, 'col')) mod = true;
+      if(this.remove_cross_redundant_from_group(this.rows, 'tic')) mod = true;
+      if(this.remove_cross_redundant_from_group(this.cols, 'tic')) mod = true;
+      return mod;
+    }
+
 
     this.remove_redundant_from_group = function(group){
       var mod = false;
@@ -199,6 +212,16 @@
       var mod = false;
       group.forEach(function(member){
         if(member.remove_dead_choices_1()){
+          mod = true;
+        }
+      }, this);
+      return mod;
+    }
+
+    this.remove_cross_redundant_from_group = function(group, cross_group_name){
+      var mod = false;
+      group.forEach(function(member){
+        if(member.remove_cross_redundant_cells(cross_group_name)){
           mod = true;
         }
       }, this);

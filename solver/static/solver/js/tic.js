@@ -3,7 +3,7 @@
     var group = $(document.body).board_group(board, group_index);
     var opts = $.extend(this, group);
 
-    this.build_col = function (){
+    this.build_tic = function (){
       var row_start = this.group_index - (this.group_index % 3);
       var col_start = (this.group_index % 3) * 3;
       for (var row_index=row_start; row_index < row_start+3; row_index++){
@@ -15,7 +15,8 @@
       }
     }
 
-    this.build_col();
+    this.build_tic();
+    this.group_name = 'tic';
 
     return this;
   }

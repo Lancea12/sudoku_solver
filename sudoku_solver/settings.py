@@ -103,8 +103,10 @@ LOGGING = {
     'loggers': {
         'solver': {
             'handlers': ['file'],
-            'level': 'DEBUG',
+            'level': 'WARNING',
             'propagate': True,
         },
     },
 }
+
+

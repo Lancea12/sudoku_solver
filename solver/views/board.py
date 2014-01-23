@@ -7,22 +7,26 @@ import json
 from solver.models.board import Board
 from solver.models.user import User
 
-def get(request, user_id, board_id):
+def show(request, user_id, board_id):
   if(request.method == "PUT" or request.method == "POST"):
     return create_or_update(request, user_id, board_id)
   (user, created) = User.objects.get_or_create(id=user_id)
-  board = user.board_set.get_or_create(id=board_id)
+  (board,created) = user.board_set.get_or_create(id=board_id)
   return HttpResponse(json.dumps({'user_id' : user_id, 'board' : board.context()}))
 
-def create_or_update(request, user_id, board_id):
+def create(request, user_id):
   (user, created) = User.objects.get_or_create(id=user_id)
-  if(board_id != None):
-    (board, created) = user.board_set.get_or_create(user=user, id=board_id)
-  else:
-    board = user.board_set.create(user=user)
+  board = user.board_set.create(user=user)
+  return update_helper(request, user, board)
 
-  data = json.loads(request.POST['board'])
+def update(request, user_id, board_id):
+  (user, created) = User.objects.get_or_create(id=user_id)
+  (board, created) = user.board_set.get_or_create(user=user, id=board_id)
+  return update_helper(request, user, board)
   
+
+def update_helper(request, user, board):
+  data = json.loads(request.POST['board'])
   if(data == None):
     return HttpResponse("failed json load")
   saved = board.update(data)

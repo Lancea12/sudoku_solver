@@ -12,6 +12,7 @@
     }
 
     this.build_col();
+    this.group_name = 'col';
 
     return this;
   }

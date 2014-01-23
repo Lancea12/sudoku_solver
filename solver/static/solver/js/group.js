@@ -11,9 +11,13 @@
     }
 
     this.remove_redundant_choices = function(){
+      var mod = false;
       for(var n=1; n <= this.max_test_choices; n++){
-        this.remove_redundant_choices_n(n);
+        if(this.remove_redundant_choices_n(n)){
+          mod = true;
+        }
       }
+      return mod;
     }
 
     this.remove_redundant_choices_n = function(n){
@@ -93,6 +97,57 @@
         return false;
       }
       return lone_cell.remove_all_but_one_choice(choice);
+    }
+
+    this.remove_cross_redundant_cells = function(cross_index_name){
+      var mod = false;
+      for(var choice=1; choice<=9; choice++){
+        if(this.remove_cross_redundant_choice(choice, cross_index_name)){
+          mod = true;
+        } 
+      }
+      return mod;
+    }
+
+    this.remove_cross_redundant_choice = function(choice, cross_group_name){
+      var mod = false;
+      var cross_index = null;
+      var in_single_cross_group = true;
+      var num_cells_with_choice = 0;
+      this.cells.every(function(cell){
+        if(!cell.has_choice(choice)){
+          return true;
+        }
+        num_cells_with_choice++;
+        if(cross_index == null){
+          cross_index = cell[cross_group_name+'_index'];
+        }else if(cell[cross_group_name+'_index'] != cross_index){
+          in_single_cross_group = false;
+          return false; 
+        }
+        return true;
+      }, this);
+
+      if(in_single_cross_group && num_cells_with_choice > 1){
+        var cross_group = this.board[cross_group_name+'s'][cross_index];    
+        if(cross_group.remove_choice_from_cells_not_in_cross_group(choice, this)){
+          mod = true;
+        }
+      }
+
+      return mod;
+    }
+
+    this.remove_choice_from_cells_not_in_cross_group = function(choice, cross_group){
+      var mod = false;
+      this.cells.forEach(function(cell){
+        if(cell[cross_group.group_name+'_index'] != cross_group.group_index){
+          if(cell.remove_choice(choice)){
+            mod = true;
+          }
+        }
+      }, this);
+      return mod;
     }
   
     this.max_test_choices = 7;

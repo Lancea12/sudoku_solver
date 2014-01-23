@@ -14,7 +14,6 @@
       this.append(this.text);
       var lb = $('<button>Save</button>');
       lb.click($.proxy(function(event){
-        this.board.name = this.text.val();
         $.ajax('/user/' + board.user_id + '/board/', {
           success: $.proxy(this.list_success, this),
           dataType: 'json',
@@ -32,13 +31,13 @@
       this.exists = false;
       var list = data.boards;
       list.forEach($.proxy(function(val){
-        if(val['name'] == board.name && val['id'] != board.id){
+        if(val['name'] == this.text.val() && val['id'] != board.id){
           this.append($('<p>already exists</p>'));
           this.exists = true;
         }
       }, this));
       if(!this.exists){
-        this.board.save_data(this);
+        this.board.save_data(this, this.text.val());
       }
     }
 
