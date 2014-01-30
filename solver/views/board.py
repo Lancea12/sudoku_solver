@@ -5,11 +5,11 @@ from django.db.models.signals import post_save
 import json
 
 from solver.models.board import Board
-from solver.models.user import User
+from django.contrib.auth.models import User
 
 def show(request, user_id, board_id):
   if(request.method == "PUT" or request.method == "POST"):
-    return create_or_update(request, user_id, board_id)
+    return update(request, user_id, board_id)
   (user, created) = User.objects.get_or_create(id=user_id)
   (board,created) = user.board_set.get_or_create(id=board_id)
   return HttpResponse(json.dumps({'user_id' : user_id, 'board' : board.context()}))

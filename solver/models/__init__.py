@@ -1,4 +1,5 @@
 from solver.models.choice import Choice
 from solver.models.cell import Cell
 from solver.models.row import Row
-from solver.models.user import User
+from solver.models.account_info import Account_Info
+
