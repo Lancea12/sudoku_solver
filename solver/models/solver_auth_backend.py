@@ -5,15 +5,20 @@ from django.contrib.auth.models import UserManager
 from oauth2client.django_orm import CredentialsField
 from oauth2client.client import flow_from_clientsecrets
 from oauth2client.client import verify_id_token
-from oauth2client.client import credentials_from_client_secrets_and_code
+from oauth2client.client import credentials_from_code
 from oauth2client.client import FlowExchangeError
 from oauth2client.django_orm import Storage
+from oauth2client.tools import run_flow
 from apiclient.discovery import build
+from solver.models.solver_user import Solver_User_Info
 import logging
 import httplib2
 import json
 import base64
 import jwt
+
+CLIENT_SECRETS = 'client_secrets.json'
+OAUTH2_STORAGE = 'oauth2.dat'
 
 class Solver_Auth_Backend(object):
 
@@ -21,77 +26,60 @@ class Solver_Auth_Backend(object):
   
   def authenticate(self, token=None):
     self.logger.debug('authenticating')
-    code = token['code']
-    client_secrets = self.get_client_secrets()
-    id_token = verify_id_token(token['id_token'], client_secrets['client_id'])
+    cs = self.get_client_secrets()
+    self.logger.debug('cs key: %s' % (cs.keys()) )
+    id_token = verify_id_token(token['id_token'], cs['client_id'])
     try:
-      user = User.objects.get(id=id_token['sub'])
+      self.logger.debug(id_token['sub'])
+      user = User.objects.get(id=str(id_token['sub']))
+      self.logger.debug('got user: %s' % user)
       return user
-    except e:
-      logger.debug(e)
- 
-      return self.create_user(code, id_token)
+    except:
+      return self.create_user(token['code'], id_token)
     
-    
-
-  def get_client_secrets():
-    f = open('client_secret.json', 'r')
-    return json.loads(f.read()) 
-    
+  def get_client_secrets(self):
+    f = open('client_secrets.json', 'r')
+    return json.loads(f.read())['web'] 
 
   
   def create_user(self, code, id_token):
-    client_secrets = self.get_client_secrets()
-    client_id = clients_secrets['client_id']
-    client_secret = clients_secrets['client_secret']
-    credential = credentials_from_code(client_id, client_secret,
-      'https://www.googleapis.com/auth/plus.me', code, 'No client secrets file')
-      
+    self.logger.debug('creating user')
+    cs = self.get_client_secrets()
+    credential = credentials_from_code(cs['client_id'], cs['client_secret'],
+      'https://www.googleapis.com/auth/plus.me', code)
+    self.logger.debug('here2')
+    google_user_info = self.get_google_user_info(credential)
+    self.logger.debug('name: %s' % (google_user_info['name']))
+    (user, created) = User.objects.get_or_create(username=str(id_token['sub']),
+      first_name=google_user_info['name']['givenName'],
+      last_name=google_user_info['name']['familyName'])
 
-    google_user_info = get_google_user_info(credential)
-    return 'login not successfull yet'
-    user = UserManager.create_user()
-    account_info = Account_Info.objects.create(user=user, google_id=google_id)
+    storage = Storage(Solver_User_Info, 'user', user, 'credential')
+    self.logger.debug('created storage')
+    try:
+      storage.put(credential)
+    except Exception as e:
+      print(e)
+    self.logger.debug('stored credntial')
+    user.solver_user_info.google_id = id_token['sub']
+    user.solver_user_info.save()
+    self.logger.debug('added google id')
+    return user
   
   
-  def get_google_user_info(credential):
+  def get_google_user_info(self, credential):
     http = httplib2.Http()
     http = credential.authorize(http)
     service = build("plus", "v1", http=http)
+    self.logger.debug(dir(service))
     google_id = credential.id_token['sub']
-    logger.debug('google id: "%s"' % (google_id))
     people = service.people()
     google_user_info = people.get(userId='me').execute()
-    logger.debug('info: %s' % (google_user_info.keys()))
     return google_user_info
   
   
-  def get_credentials_from_code(code, id_token):
-    google_id = id_token['sub']
+  def get_user(self, user_id):
     try:
-      # Upgrade the authorization code into a credentials object
-      oauth_flow = flow_from_clientsecrets('client_secrets.json', 
-                    scope='https://www.googleapis.com/auth/plus.me')
-      oauth_flow.redirect_uri = 'postmessage'
-      credential = oauth_flow.step2_exchange(code)
-    except FlowExchangeError:
+      return User.objects.get(pk=user_id)
+    except User.DoesNotExist:
       return None
-  
-    # Check that the access token is valid.
-    access_token = credential.access_token
-    url = ('https://www.googleapis.com/oauth2/v1/tokeninfo?access_token=%s'
-           % access_token)
-    h = httplib2.Http()
-    result = json.loads(h.request(url, 'GET')[1])
-    # If there was an error in the access token info, abort.
-    if result.get('error') is not None:
-      return None
-    # Verify that the access token is used for the intended user.
-    
-    if result['user_id'] != google_id:
-      return None
-    # Verify that the access token is valid for this app.
-    if result['issued_to'] != oauth_flow.client_id:
-      return None
-  
-    return credential

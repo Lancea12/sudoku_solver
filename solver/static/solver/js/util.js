@@ -26,6 +26,18 @@ signInCallback = function(authResult){
   });
 }
 
+parseQueryParams = function(query){
+  var pat = /([^&=]+)=?([^&]*)/g;
+  var params = {};
+  while(mat = pat.exec(query)){
+    params[mat[1]] = mat[2];
+  }  
+  return params;
+}
+
 signInSuccess = function(data, textStatus, jqXHR){
-  //window.location = '/';
+  if(data != 'None'){
+    var params = parseQueryParams(window.location.search.substring(1))
+    window.location = window.location.origin + params['next']
+  }
 }

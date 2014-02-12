@@ -458,3 +458,869 @@ id_token: [u'c_hash', u'aud', u'iss', u'at_hash', u'exp', u'azp', u'iat', u'sub'
 id_token[sub]: 117335476020407633657
 id_token[aud]: 260119194634-knovqeqd6ik2pti8u4nauqnaoieeqshc.apps.googleusercontent.com
 id_token[iss]: accounts.google.com
+authenticating
+authenticating
+authenticating
+authenticating
+authenticating
+authenticating
+authenticating
+authenticating
+authenticating
+authenticating
+authenticating
+here1
+authenticating
+here1
+authenticating
+here1
+authenticating
+here1
+authenticating
+here1
+here1.5
+here2
+authenticating
+cs key: [u'web']
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+trying to get user
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+google id: "117335476020407633657"
+info: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+google id: "117335476020407633657"
+info: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+google id: "117335476020407633657"
+info: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here1
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+username: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+info: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+username: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+username: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+info: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+username: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+username: Lance Anderson
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+info: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+info: [[{u'endDate': u'2004', u'type': u'school', u'name': u'Massachusetts Institute of Technology', u'primary': False}, {u'type': u'work', u'name': u'STRATUS Solutions', u'primary': False, u'title': u'Senior Engineer'}], u'plus#person', u'Lance Anderson', {u'givenName': u'Lance', u'familyName': u'Anderson'}, u'en', True, u'https://plus.google.com/117335476020407633657', u'male', {u'url': u'https://lh5.googleusercontent.com/-uGqJ69b6bNc/AAAAAAAAAAI/AAAAAAAAAAA/iW7zcPuQ4G0/photo.jpg?sz=50'}, [{u'primary': True, u'value': u'Washington, DC'}], u'"KmFlUTDKo0bNqNhpeBygvIv8XvA/WNfBY_6UhWd-5SmRt_nleYUni6c"', [{u'type': u'otherProfile', u'value': u'http://picasaweb.google.com/lancea12', u'label': u'Picasa Web Albums'}, {u'type': u'contributor', u'value': u'https://profiles.google.com/117335476020407633657/buzz', u'label': u'Buzz'}], {u'min': 21}, False, 42, u'117335476020407633657', u'person']
+username: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+username: Lance Anderson
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+info: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+info: [[{u'endDate': u'2004', u'type': u'school', u'name': u'Massachusetts Institute of Technology', u'primary': False}, {u'type': u'work', u'name': u'STRATUS Solutions', u'primary': False, u'title': u'Senior Engineer'}], u'plus#person', u'Lance Anderson', {u'givenName': u'Lance', u'familyName': u'Anderson'}, u'en', True, u'https://plus.google.com/117335476020407633657', u'male', {u'url': u'https://lh5.googleusercontent.com/-uGqJ69b6bNc/AAAAAAAAAAI/AAAAAAAAAAA/iW7zcPuQ4G0/photo.jpg?sz=50'}, [{u'primary': True, u'value': u'Washington, DC'}], u'"KmFlUTDKo0bNqNhpeBygvIv8XvA/WNfBY_6UhWd-5SmRt_nleYUni6c"', [{u'type': u'otherProfile', u'value': u'http://picasaweb.google.com/lancea12', u'label': u'Picasa Web Albums'}, {u'type': u'contributor', u'value': u'https://profiles.google.com/117335476020407633657/buzz', u'label': u'Buzz'}], {u'min': 21}, False, 42, u'117335476020407633657', u'person']
+username: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+username: Lance Anderson
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+info: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+info: [[{u'endDate': u'2004', u'type': u'school', u'name': u'Massachusetts Institute of Technology', u'primary': False}, {u'type': u'work', u'name': u'STRATUS Solutions', u'primary': False, u'title': u'Senior Engineer'}], u'plus#person', u'Lance Anderson', {u'givenName': u'Lance', u'familyName': u'Anderson'}, u'en', True, u'https://plus.google.com/117335476020407633657', u'male', {u'url': u'https://lh5.googleusercontent.com/-uGqJ69b6bNc/AAAAAAAAAAI/AAAAAAAAAAA/iW7zcPuQ4G0/photo.jpg?sz=50'}, [{u'primary': True, u'value': u'Washington, DC'}], u'"KmFlUTDKo0bNqNhpeBygvIv8XvA/WNfBY_6UhWd-5SmRt_nleYUni6c"', [{u'type': u'otherProfile', u'value': u'http://picasaweb.google.com/lancea12', u'label': u'Picasa Web Albums'}, {u'type': u'contributor', u'value': u'https://profiles.google.com/117335476020407633657/buzz', u'label': u'Buzz'}], {u'min': 21}, False, 42, u'117335476020407633657', u'person']
+username: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+username: Lance Anderson
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+info: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+info: [[{u'endDate': u'2004', u'type': u'school', u'name': u'Massachusetts Institute of Technology', u'primary': False}, {u'type': u'work', u'name': u'STRATUS Solutions', u'primary': False, u'title': u'Senior Engineer'}], u'plus#person', u'Lance Anderson', {u'givenName': u'Lance', u'familyName': u'Anderson'}, u'en', True, u'https://plus.google.com/117335476020407633657', u'male', {u'url': u'https://lh5.googleusercontent.com/-uGqJ69b6bNc/AAAAAAAAAAI/AAAAAAAAAAA/iW7zcPuQ4G0/photo.jpg?sz=50'}, [{u'primary': True, u'value': u'Washington, DC'}], u'"KmFlUTDKo0bNqNhpeBygvIv8XvA/WNfBY_6UhWd-5SmRt_nleYUni6c"', [{u'type': u'otherProfile', u'value': u'http://picasaweb.google.com/lancea12', u'label': u'Picasa Web Albums'}, {u'type': u'contributor', u'value': u'https://profiles.google.com/117335476020407633657/buzz', u'label': u'Buzz'}], {u'min': 21}, False, 42, u'117335476020407633657', u'person']
+username: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+username: Lance Anderson
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+info: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+info: [[{u'endDate': u'2004', u'type': u'school', u'name': u'Massachusetts Institute of Technology', u'primary': False}, {u'type': u'work', u'name': u'STRATUS Solutions', u'primary': False, u'title': u'Senior Engineer'}], u'plus#person', u'Lance Anderson', {u'givenName': u'Lance', u'familyName': u'Anderson'}, u'en', True, u'https://plus.google.com/117335476020407633657', u'male', {u'url': u'https://lh5.googleusercontent.com/-uGqJ69b6bNc/AAAAAAAAAAI/AAAAAAAAAAA/iW7zcPuQ4G0/photo.jpg?sz=50'}, [{u'primary': True, u'value': u'Washington, DC'}], u'"KmFlUTDKo0bNqNhpeBygvIv8XvA/WNfBY_6UhWd-5SmRt_nleYUni6c"', [{u'type': u'otherProfile', u'value': u'http://picasaweb.google.com/lancea12', u'label': u'Picasa Web Albums'}, {u'type': u'contributor', u'value': u'https://profiles.google.com/117335476020407633657/buzz', u'label': u'Buzz'}], {u'min': 21}, False, 42, u'117335476020407633657', u'person']
+username: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+username: Lance Anderson
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+info: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+info: [[{u'endDate': u'2004', u'type': u'school', u'name': u'Massachusetts Institute of Technology', u'primary': False}, {u'type': u'work', u'name': u'STRATUS Solutions', u'primary': False, u'title': u'Senior Engineer'}], u'plus#person', u'Lance Anderson', {u'givenName': u'Lance', u'familyName': u'Anderson'}, u'en', True, u'https://plus.google.com/117335476020407633657', u'male', {u'url': u'https://lh5.googleusercontent.com/-uGqJ69b6bNc/AAAAAAAAAAI/AAAAAAAAAAA/iW7zcPuQ4G0/photo.jpg?sz=50'}, [{u'primary': True, u'value': u'Washington, DC'}], u'"KmFlUTDKo0bNqNhpeBygvIv8XvA/WNfBY_6UhWd-5SmRt_nleYUni6c"', [{u'type': u'otherProfile', u'value': u'http://picasaweb.google.com/lancea12', u'label': u'Picasa Web Albums'}, {u'type': u'contributor', u'value': u'https://profiles.google.com/117335476020407633657/buzz', u'label': u'Buzz'}], {u'min': 21}, False, 42, u'117335476020407633657', u'person']
+username: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+username: Lance Anderson
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+info: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+info: [[{u'endDate': u'2004', u'type': u'school', u'name': u'Massachusetts Institute of Technology', u'primary': False}, {u'type': u'work', u'name': u'STRATUS Solutions', u'primary': False, u'title': u'Senior Engineer'}], u'plus#person', u'Lance Anderson', {u'givenName': u'Lance', u'familyName': u'Anderson'}, u'en', True, u'https://plus.google.com/117335476020407633657', u'male', {u'url': u'https://lh5.googleusercontent.com/-uGqJ69b6bNc/AAAAAAAAAAI/AAAAAAAAAAA/iW7zcPuQ4G0/photo.jpg?sz=50'}, [{u'primary': True, u'value': u'Washington, DC'}], u'"KmFlUTDKo0bNqNhpeBygvIv8XvA/WNfBY_6UhWd-5SmRt_nleYUni6c"', [{u'type': u'otherProfile', u'value': u'http://picasaweb.google.com/lancea12', u'label': u'Picasa Web Albums'}, {u'type': u'contributor', u'value': u'https://profiles.google.com/117335476020407633657/buzz', u'label': u'Buzz'}], {u'min': 21}, False, 42, u'117335476020407633657', u'person']
+user info keys: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+username: Lance Anderson
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+info: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+info: [[{u'endDate': u'2004', u'type': u'school', u'name': u'Massachusetts Institute of Technology', u'primary': False}, {u'type': u'work', u'name': u'STRATUS Solutions', u'primary': False, u'title': u'Senior Engineer'}], u'plus#person', u'Lance Anderson', {u'givenName': u'Lance', u'familyName': u'Anderson'}, u'en', True, u'https://plus.google.com/117335476020407633657', u'male', {u'url': u'https://lh5.googleusercontent.com/-uGqJ69b6bNc/AAAAAAAAAAI/AAAAAAAAAAA/iW7zcPuQ4G0/photo.jpg?sz=50'}, [{u'primary': True, u'value': u'Washington, DC'}], u'"KmFlUTDKo0bNqNhpeBygvIv8XvA/WNfBY_6UhWd-5SmRt_nleYUni6c"', [{u'type': u'otherProfile', u'value': u'http://picasaweb.google.com/lancea12', u'label': u'Picasa Web Albums'}, {u'type': u'contributor', u'value': u'https://profiles.google.com/117335476020407633657/buzz', u'label': u'Buzz'}], {u'min': 21}, False, 42, u'117335476020407633657', u'person']
+user info keys: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+username: Lance Anderson
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+info: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+info: [[{u'endDate': u'2004', u'type': u'school', u'name': u'Massachusetts Institute of Technology', u'primary': False}, {u'type': u'work', u'name': u'STRATUS Solutions', u'primary': False, u'title': u'Senior Engineer'}], u'plus#person', u'Lance Anderson', {u'givenName': u'Lance', u'familyName': u'Anderson'}, u'en', True, u'https://plus.google.com/117335476020407633657', u'male', {u'url': u'https://lh5.googleusercontent.com/-uGqJ69b6bNc/AAAAAAAAAAI/AAAAAAAAAAA/iW7zcPuQ4G0/photo.jpg?sz=50'}, [{u'primary': True, u'value': u'Washington, DC'}], u'"KmFlUTDKo0bNqNhpeBygvIv8XvA/WNfBY_6UhWd-5SmRt_nleYUni6c"', [{u'type': u'otherProfile', u'value': u'http://picasaweb.google.com/lancea12', u'label': u'Picasa Web Albums'}, {u'type': u'contributor', u'value': u'https://profiles.google.com/117335476020407633657/buzz', u'label': u'Buzz'}], {u'min': 21}, False, 42, u'117335476020407633657', u'person']
+user info keys: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+username: Lance Anderson
+etag: "KmFlUTDKo0bNqNhpeBygvIv8XvA/WNfBY_6UhWd-5SmRt_nleYUni6c"
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+info: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+info: [[{u'endDate': u'2004', u'type': u'school', u'name': u'Massachusetts Institute of Technology', u'primary': False}, {u'type': u'work', u'name': u'STRATUS Solutions', u'primary': False, u'title': u'Senior Engineer'}], u'plus#person', u'Lance Anderson', {u'givenName': u'Lance', u'familyName': u'Anderson'}, u'en', True, u'https://plus.google.com/117335476020407633657', u'male', {u'url': u'https://lh5.googleusercontent.com/-uGqJ69b6bNc/AAAAAAAAAAI/AAAAAAAAAAA/iW7zcPuQ4G0/photo.jpg?sz=50'}, [{u'primary': True, u'value': u'Washington, DC'}], u'"KmFlUTDKo0bNqNhpeBygvIv8XvA/WNfBY_6UhWd-5SmRt_nleYUni6c"', [{u'type': u'otherProfile', u'value': u'http://picasaweb.google.com/lancea12', u'label': u'Picasa Web Albums'}, {u'type': u'contributor', u'value': u'https://profiles.google.com/117335476020407633657/buzz', u'label': u'Buzz'}], {u'min': 21}, False, 42, u'117335476020407633657', u'person']
+user info keys: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+username: Lance Anderson
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+info: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+info: [[{u'endDate': u'2004', u'type': u'school', u'name': u'Massachusetts Institute of Technology', u'primary': False}, {u'type': u'work', u'name': u'STRATUS Solutions', u'primary': False, u'title': u'Senior Engineer'}], u'plus#person', u'Lance Anderson', {u'givenName': u'Lance', u'familyName': u'Anderson'}, u'en', True, u'https://plus.google.com/117335476020407633657', u'male', {u'url': u'https://lh5.googleusercontent.com/-uGqJ69b6bNc/AAAAAAAAAAI/AAAAAAAAAAA/iW7zcPuQ4G0/photo.jpg?sz=50'}, [{u'primary': True, u'value': u'Washington, DC'}], u'"KmFlUTDKo0bNqNhpeBygvIv8XvA/WNfBY_6UhWd-5SmRt_nleYUni6c"', [{u'type': u'otherProfile', u'value': u'http://picasaweb.google.com/lancea12', u'label': u'Picasa Web Albums'}, {u'type': u'contributor', u'value': u'https://profiles.google.com/117335476020407633657/buzz', u'label': u'Buzz'}], {u'min': 21}, False, 42, u'117335476020407633657', u'person']
+user info keys: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+username: Lance Anderson
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+['NON_SERIALIZED_MEMBERS', '__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_do_refresh_request', '_do_revoke', '_generate_refresh_request_body', '_generate_refresh_request_headers', '_refresh', '_revoke', '_to_json', '_updateFromCredential', 'access_token', 'access_token_expired', 'apply', 'authorize', 'client_id', 'client_secret', 'from_json', 'id_token', 'invalid', 'new_from_json', 'refresh', 'refresh_token', 'revoke', 'revoke_uri', 'set_store', 'store', 'to_json', 'token_expiry', 'token_response', 'token_uri', 'user_agent']
+info: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+info: [[{u'endDate': u'2004', u'type': u'school', u'name': u'Massachusetts Institute of Technology', u'primary': False}, {u'type': u'work', u'name': u'STRATUS Solutions', u'primary': False, u'title': u'Senior Engineer'}], u'plus#person', u'Lance Anderson', {u'givenName': u'Lance', u'familyName': u'Anderson'}, u'en', True, u'https://plus.google.com/117335476020407633657', u'male', {u'url': u'https://lh5.googleusercontent.com/-uGqJ69b6bNc/AAAAAAAAAAI/AAAAAAAAAAA/iW7zcPuQ4G0/photo.jpg?sz=50'}, [{u'primary': True, u'value': u'Washington, DC'}], u'"KmFlUTDKo0bNqNhpeBygvIv8XvA/WNfBY_6UhWd-5SmRt_nleYUni6c"', [{u'type': u'otherProfile', u'value': u'http://picasaweb.google.com/lancea12', u'label': u'Picasa Web Albums'}, {u'type': u'contributor', u'value': u'https://profiles.google.com/117335476020407633657/buzz', u'label': u'Buzz'}], {u'min': 21}, False, 42, u'117335476020407633657', u'person']
+user info keys: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+username: Lance Anderson
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+here3
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+here3
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+here3
+here4
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+here3
+here4
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+here3
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+here3
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+here3
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+here3
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+here3
+here4
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+here3
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+here3
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+here3
+here4
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+here3
+here4
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+info: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+info: [[{u'endDate': u'2004', u'type': u'school', u'name': u'Massachusetts Institute of Technology', u'primary': False}, {u'type': u'work', u'name': u'STRATUS Solutions', u'primary': False, u'title': u'Senior Engineer'}], u'plus#person', u'Lance Anderson', {u'givenName': u'Lance', u'familyName': u'Anderson'}, u'en', True, u'https://plus.google.com/117335476020407633657', u'male', {u'url': u'https://lh5.googleusercontent.com/-uGqJ69b6bNc/AAAAAAAAAAI/AAAAAAAAAAA/iW7zcPuQ4G0/photo.jpg?sz=50'}, [{u'primary': True, u'value': u'Washington, DC'}], u'"KmFlUTDKo0bNqNhpeBygvIv8XvA/WNfBY_6UhWd-5SmRt_nleYUni6c"', [{u'type': u'otherProfile', u'value': u'http://picasaweb.google.com/lancea12', u'label': u'Picasa Web Albums'}, {u'type': u'contributor', u'value': u'https://profiles.google.com/117335476020407633657/buzz', u'label': u'Buzz'}], {u'min': 21}, False, 42, u'117335476020407633657', u'person']
+user info keys: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+username: Lance Anderson
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+info: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+info: [[{u'endDate': u'2004', u'type': u'school', u'name': u'Massachusetts Institute of Technology', u'primary': False}, {u'type': u'work', u'name': u'STRATUS Solutions', u'primary': False, u'title': u'Senior Engineer'}], u'plus#person', u'Lance Anderson', {u'givenName': u'Lance', u'familyName': u'Anderson'}, u'en', True, u'https://plus.google.com/117335476020407633657', u'male', {u'url': u'https://lh5.googleusercontent.com/-uGqJ69b6bNc/AAAAAAAAAAI/AAAAAAAAAAA/iW7zcPuQ4G0/photo.jpg?sz=50'}, [{u'primary': True, u'value': u'Washington, DC'}], u'"KmFlUTDKo0bNqNhpeBygvIv8XvA/WNfBY_6UhWd-5SmRt_nleYUni6c"', [{u'type': u'otherProfile', u'value': u'http://picasaweb.google.com/lancea12', u'label': u'Picasa Web Albums'}, {u'type': u'contributor', u'value': u'https://profiles.google.com/117335476020407633657/buzz', u'label': u'Buzz'}], {u'min': 21}, False, 42, u'117335476020407633657', u'person']
+user info keys: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+username: Lance Anderson
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+user info keys: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+username: Lance Anderson
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+user info keys: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+username: Lance Anderson
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+user info keys: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+username: Lance Anderson
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+user info keys: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+username: Lance Anderson
+created storage
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+user info keys: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+username: Lance Anderson
+created storage
+stored credntial
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+user info keys: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+username: Lance Anderson
+created storage
+stored credntial
+added google id
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+user info keys: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+username: Lance Anderson
+created storage
+stored credntial
+added google id
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+user info keys: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+username: Lance Anderson
+created storage
+stored credntial
+added google id
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+user info keys: [u'organizations', u'kind', u'displayName', u'name', u'language', u'isPlusUser', u'url', u'gender', u'image', u'placesLived', u'etag', u'urls', u'ageRange', u'verified', u'circledByCount', u'id', u'objectType']
+username: Lance Anderson
+created storage
+stored credntial
+added google id
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+name: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+name: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+name: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+created storage
+stored credntial
+added google id
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+name: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+created storage
+stored credntial
+added google id
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+name: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+created storage
+stored credntial
+added google id
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+[u'zeeS7daIVR8SL0Hq09AzUg', u'117335476020407633657', u'accounts.google.com', u'n-C-DaJU3f4GI_7tAk5HQg', 1392172922, u'260119194634-knovqeqd6ik2pti8u4nauqnaoieeqshc.apps.googleusercontent.com', 1392169022, u'260119194634-knovqeqd6ik2pti8u4nauqnaoieeqshc.apps.googleusercontent.com']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+name: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+created storage
+stored credntial
+added google id
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+[u't8nc7dge9FIJHCdggjUXFg', u'117335476020407633657', u'accounts.google.com', u'sAJ58_Bu_tQyn_CPhPzjbA', 1392173160, u'260119194634-knovqeqd6ik2pti8u4nauqnaoieeqshc.apps.googleusercontent.com', 1392169260, u'260119194634-knovqeqd6ik2pti8u4nauqnaoieeqshc.apps.googleusercontent.com']
+117335476020407633657
+creating user
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+name: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+created storage
+stored credntial
+added google id
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+name: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+created storage
+stored credntial
+added google id
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+name: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+created storage
+stored credntial
+added google id
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+name: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+created storage
+stored credntial
+added google id
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+name: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+created storage
+stored credntial
+added google id
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+name: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+created storage
+stored credntial
+added google id
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+name: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+created storage
+stored credntial
+added google id
+updating board
+0
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+1
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+2
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+3
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+4
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+5
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+6
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+7
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+8
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+updating board
+0
+data len=9 cells len=9
+setting anchored: False
+adding choice: 1 to row 0 col 0
+setting anchored: False
+adding choice: 2 to row 0 col 1
+setting anchored: False
+adding choice: 3 to row 0 col 2
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+1
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+2
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+3
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+4
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+5
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+6
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+7
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+8
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
