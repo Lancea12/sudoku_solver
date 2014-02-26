@@ -18,6 +18,7 @@ signInCallback = function(authResult){
     csrfmiddlewaretoken: $('#csrf_form input[name="csrfmiddlewaretoken"]')[0].value,
     id_token: authResult.id_token,
     code: authResult.code,
+    login_method: authResult.status.method
   };
   $.ajax('/accounts/login/', {
     success: signInSuccess,
@@ -36,8 +37,10 @@ parseQueryParams = function(query){
 }
 
 signInSuccess = function(data, textStatus, jqXHR){
-  if(data != 'None'){
+  if(data != 'None' && data != 'error: code or id_token missing' &&
+    data != 'error: attempt to auto login'){
     var params = parseQueryParams(window.location.search.substring(1))
     window.location = window.location.origin + params['next']
   }
 }
+

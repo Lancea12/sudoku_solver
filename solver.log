@@ -1324,3 +1324,1125 @@ setting anchored: False
 setting anchored: False
 setting anchored: False
 setting anchored: False
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+name: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+created storage
+stored credntial
+added google id
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+name: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+created storage
+stored credntial
+added google id
+updating board
+0
+data len=9 cells len=9
+setting anchored: False
+adding choice: 3 to row 0 col 0
+setting anchored: True
+adding choice: 4 to row 0 col 1
+setting anchored: True
+adding choice: 7 to row 0 col 2
+setting anchored: False
+adding choice: 9 to row 0 col 3
+setting anchored: False
+adding choice: 6 to row 0 col 4
+setting anchored: True
+adding choice: 2 to row 0 col 5
+setting anchored: False
+adding choice: 8 to row 0 col 6
+setting anchored: True
+adding choice: 1 to row 0 col 7
+setting anchored: False
+adding choice: 5 to row 0 col 8
+1
+data len=9 cells len=9
+setting anchored: True
+adding choice: 8 to row 1 col 0
+setting anchored: False
+adding choice: 9 to row 1 col 1
+setting anchored: True
+adding choice: 5 to row 1 col 2
+setting anchored: False
+adding choice: 1 to row 1 col 3
+setting anchored: False
+adding choice: 4 to row 1 col 4
+setting anchored: True
+adding choice: 3 to row 1 col 5
+setting anchored: True
+adding choice: 7 to row 1 col 6
+setting anchored: False
+adding choice: 2 to row 1 col 7
+setting anchored: False
+adding choice: 6 to row 1 col 8
+2
+data len=9 cells len=9
+setting anchored: False
+adding choice: 6 to row 2 col 0
+setting anchored: False
+adding choice: 1 to row 2 col 1
+setting anchored: False
+adding choice: 2 to row 2 col 2
+setting anchored: True
+adding choice: 8 to row 2 col 3
+setting anchored: False
+adding choice: 7 to row 2 col 4
+setting anchored: False
+adding choice: 5 to row 2 col 5
+setting anchored: False
+adding choice: 9 to row 2 col 6
+setting anchored: False
+adding choice: 4 to row 2 col 7
+setting anchored: False
+adding choice: 3 to row 2 col 8
+3
+data len=9 cells len=9
+setting anchored: True
+adding choice: 1 to row 3 col 0
+setting anchored: False
+adding choice: 7 to row 3 col 1
+setting anchored: True
+adding choice: 4 to row 3 col 2
+setting anchored: False
+adding choice: 2 to row 3 col 3
+setting anchored: False
+adding choice: 3 to row 3 col 4
+setting anchored: False
+adding choice: 6 to row 3 col 5
+setting anchored: False
+adding choice: 5 to row 3 col 6
+setting anchored: False
+adding choice: 9 to row 3 col 7
+setting anchored: True
+adding choice: 8 to row 3 col 8
+4
+data len=9 cells len=9
+setting anchored: False
+adding choice: 2 to row 4 col 0
+setting anchored: True
+adding choice: 3 to row 4 col 1
+setting anchored: False
+adding choice: 8 to row 4 col 2
+setting anchored: False
+adding choice: 5 to row 4 col 3
+setting anchored: True
+adding choice: 9 to row 4 col 4
+setting anchored: False
+adding choice: 4 to row 4 col 5
+setting anchored: False
+adding choice: 1 to row 4 col 6
+setting anchored: True
+adding choice: 6 to row 4 col 7
+setting anchored: False
+adding choice: 7 to row 4 col 8
+5
+data len=9 cells len=9
+setting anchored: True
+adding choice: 5 to row 5 col 0
+setting anchored: False
+adding choice: 6 to row 5 col 1
+setting anchored: False
+adding choice: 9 to row 5 col 2
+setting anchored: False
+adding choice: 7 to row 5 col 3
+setting anchored: False
+adding choice: 8 to row 5 col 4
+setting anchored: False
+adding choice: 1 to row 5 col 5
+setting anchored: True
+adding choice: 4 to row 5 col 6
+setting anchored: False
+adding choice: 3 to row 5 col 7
+setting anchored: True
+adding choice: 2 to row 5 col 8
+6
+data len=9 cells len=9
+setting anchored: False
+adding choice: 9 to row 6 col 0
+setting anchored: False
+adding choice: 8 to row 6 col 1
+setting anchored: False
+adding choice: 3 to row 6 col 2
+setting anchored: False
+adding choice: 6 to row 6 col 3
+setting anchored: False
+adding choice: 1 to row 6 col 4
+setting anchored: True
+adding choice: 7 to row 6 col 5
+setting anchored: False
+adding choice: 2 to row 6 col 6
+setting anchored: False
+adding choice: 5 to row 6 col 7
+setting anchored: False
+adding choice: 4 to row 6 col 8
+7
+data len=9 cells len=9
+setting anchored: False
+adding choice: 4 to row 7 col 0
+setting anchored: False
+adding choice: 5 to row 7 col 1
+setting anchored: True
+adding choice: 1 to row 7 col 2
+setting anchored: True
+adding choice: 3 to row 7 col 3
+setting anchored: False
+adding choice: 2 to row 7 col 4
+setting anchored: False
+adding choice: 8 to row 7 col 5
+setting anchored: True
+adding choice: 6 to row 7 col 6
+setting anchored: False
+adding choice: 7 to row 7 col 7
+setting anchored: True
+adding choice: 9 to row 7 col 8
+8
+data len=9 cells len=9
+setting anchored: False
+adding choice: 7 to row 8 col 0
+setting anchored: True
+adding choice: 2 to row 8 col 1
+setting anchored: False
+adding choice: 6 to row 8 col 2
+setting anchored: True
+adding choice: 4 to row 8 col 3
+setting anchored: False
+adding choice: 5 to row 8 col 4
+setting anchored: False
+adding choice: 9 to row 8 col 5
+setting anchored: True
+adding choice: 3 to row 8 col 6
+setting anchored: True
+adding choice: 8 to row 8 col 7
+setting anchored: False
+adding choice: 1 to row 8 col 8
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+name: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+created storage
+stored credntial
+added google id
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+name: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+created storage
+stored credntial
+added google id
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+name: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+created storage
+stored credntial
+added google id
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+name: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+created storage
+stored credntial
+added google id
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+name: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+created storage
+stored credntial
+added google id
+[u'id_token', u'csrfmiddlewaretoken', u'code']
+[u'id_token', u'csrfmiddlewaretoken', u'code']
+[u'id_token', u'csrfmiddlewaretoken', u'code']
+[u'eyJhbGciOiJSUzI1NiIsImtpZCI6ImFlODBjZTdkZDIwMjYxNmY5M2FhY2Y4YWM3YzhiMDg1NDRiOTM4ODEifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwic3ViIjoiMTE3MzM1NDc2MDIwNDA3NjMzNjU3IiwiY19oYXNoIjoid3RKQWdkaGstNklGaGU5ay1ZQl81USIsImF0X2hhc2giOiI3N0Q0OW81dlZ4QW8tdVNId0NRMTdnIiwiYXpwIjoiMjYwMTE5MTk0NjM0LWtub3ZxZXFkNmlrMnB0aTh1NG5hdXFuYW9pZWVxc2hjLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMjYwMTE5MTk0NjM0LWtub3ZxZXFkNmlrMnB0aTh1NG5hdXFuYW9pZWVxc2hjLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiaWF0IjoxMzkyNDcwMDU4LCJleHAiOjEzOTI0NzM5NTh9.VlKgIbQKeFe7jhR6wfPoVVWJ218ccQ-ILKDHfgsxRTJ3tkvpI-Udacys7GE-MGv9cDA0NDcVuup4sG8tZk6XBqa1gYWJUKldK4u9X6cKIYpWK-uxdLCZRKttDAeUrNzb99ApMmCEkWU1kjFSdhDxOFvBEiQNVaCG-cyluO_i0U4', u'N0v4tTyFwM5a9dPZXWfgylehDkeFgiTL', u'4/dGH_TLGNZ_9bGWbJaRBsURHamMT7.smFz6g18aycYaDn_6y0ZQNh-mmpriAI']
+[u'id_token', u'csrfmiddlewaretoken', u'code', u'login_method']
+[u'eyJhbGciOiJSUzI1NiIsImtpZCI6ImFlODBjZTdkZDIwMjYxNmY5M2FhY2Y4YWM3YzhiMDg1NDRiOTM4ODEifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiMjYwMTE5MTk0NjM0LWtub3ZxZXFkNmlrMnB0aTh1NG5hdXFuYW9pZWVxc2hjLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTE3MzM1NDc2MDIwNDA3NjMzNjU3IiwiYXRfaGFzaCI6IjN4TWxIcGVQRTNKQ3k5ZWhrQkFhQXciLCJhdWQiOiIyNjAxMTkxOTQ2MzQta25vdnFlcWQ2aWsycHRpOHU0bmF1cW5hb2llZXFzaGMuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJjX2hhc2giOiJFVTdVMHdjX2pETEhqRTJJOWFsZDN3IiwiaWF0IjoxMzkyNDcwMTE3LCJleHAiOjEzOTI0NzQwMTd9.l6kVGVatuFq8uVq9bQM04rTc61yKy8_t1tN9bvg5HOH2gjl0mtU8v7HtoL34xrcJA6m1Hsf29oeiXst4OvN0blnsM9IohloB--Mb4i_o1_RRuLs04OIc418EtZpXMbhydIa6HMzb6JTXUOw3DKXFGJ-24BjAMHy8zl2ezVbnHsE', u'N0v4tTyFwM5a9dPZXWfgylehDkeFgiTL', u'4/_hQ2ob5hWrBrrPgp-JVT_-8pMzfC.QnxBoK8afIsVaDn_6y0ZQNgeZ2xriAI', u'AUTO']
+[u'id_token', u'csrfmiddlewaretoken', u'code', u'login_method']
+[u'eyJhbGciOiJSUzI1NiIsImtpZCI6ImFlODBjZTdkZDIwMjYxNmY5M2FhY2Y4YWM3YzhiMDg1NDRiOTM4ODEifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiMjYwMTE5MTk0NjM0LWtub3ZxZXFkNmlrMnB0aTh1NG5hdXFuYW9pZWVxc2hjLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXRfaGFzaCI6IlFVbmNtdkkyZnNIWXVfbC0tOXRXeUEiLCJhdWQiOiIyNjAxMTkxOTQ2MzQta25vdnFlcWQ2aWsycHRpOHU0bmF1cW5hb2llZXFzaGMuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJjX2hhc2giOiJuSk9xejdNbEJ0XzBSNFJ0ZzRRSUR3Iiwic3ViIjoiMTE3MzM1NDc2MDIwNDA3NjMzNjU3IiwiaWF0IjoxMzkyNDcwMTM3LCJleHAiOjEzOTI0NzQwMzd9.pEAXv39X2_yge89nS6MSe64OvTIjKRYvaK-RinjroeDLW6hHbcjVmQhfZ6oYZU-zMkxSaP5YzvsuRCaI0cZPcI_k6TSGREMq_MTFBboCr349i8dSc0oJlX6nQAwx6gw5PwfKX2oOCc4uLPHzZDxqstLEbYz6dv8fGEmSzMcHobA', u'N0v4tTyFwM5a9dPZXWfgylehDkeFgiTL', u'4/4c3VsVOG-sNYHdnVL5415MipfHp8.ohgCCuI7gt0baDn_6y0ZQNhyBW1riAI', u'AUTO']
+[u'id_token', u'csrfmiddlewaretoken', u'code', u'login_method']
+[u'eyJhbGciOiJSUzI1NiIsImtpZCI6ImFlODBjZTdkZDIwMjYxNmY5M2FhY2Y4YWM3YzhiMDg1NDRiOTM4ODEifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwic3ViIjoiMTE3MzM1NDc2MDIwNDA3NjMzNjU3IiwiYXpwIjoiMjYwMTE5MTk0NjM0LWtub3ZxZXFkNmlrMnB0aTh1NG5hdXFuYW9pZWVxc2hjLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiY19oYXNoIjoibU1INHlmSDRYMGkxRTNaTlBwbmhLQSIsImF1ZCI6IjI2MDExOTE5NDYzNC1rbm92cWVxZDZpazJwdGk4dTRuYXVxbmFvaWVlcXNoYy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsImF0X2hhc2giOiIwVlZkVmQweG1ENWwtVkhBX0xvY2R3IiwiaWF0IjoxMzkyNDcwMTkwLCJleHAiOjEzOTI0NzQwOTB9.QAbmSaFIIyZ_qBC3cBJd2KkwLI3uF6X5k77Fetr4lPJMKv2xLA4kKl4JQWgau8hswEGc_j8nZAa0YoVb7V3_csQcwPlMCnYJTNr8hFUqanragLb2t-6iZHH5kCDwZvf48pYLfnUStJGc3H-QqgbeecjzvjEPfYS9TBPHpZTkAYM', u'N0v4tTyFwM5a9dPZXWfgylehDkeFgiTL', u'4/ufMTfWgzWW08PvlOFsGGEMT71sXY.UoURfSE6r4wb3oEBd8DOtNDDp25riAI', u'AUTO']
+[u'id_token', u'csrfmiddlewaretoken', u'code', u'login_method']
+[u'eyJhbGciOiJSUzI1NiIsImtpZCI6ImFlODBjZTdkZDIwMjYxNmY5M2FhY2Y4YWM3YzhiMDg1NDRiOTM4ODEifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXRfaGFzaCI6IkRDa0lVT3Eydk9nRkdxQ2dablV1QmciLCJhdWQiOiIyNjAxMTkxOTQ2MzQta25vdnFlcWQ2aWsycHRpOHU0bmF1cW5hb2llZXFzaGMuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJjX2hhc2giOiI5WjVmTkpId2U3X1Blc2pJY1JEWDd3IiwiYXpwIjoiMjYwMTE5MTk0NjM0LWtub3ZxZXFkNmlrMnB0aTh1NG5hdXFuYW9pZWVxc2hjLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTE3MzM1NDc2MDIwNDA3NjMzNjU3IiwiaWF0IjoxMzkyNDcwMTk2LCJleHAiOjEzOTI0NzQwOTZ9.iqjo5ITeAa6GlvRFt5qTGiUs1jqbvI1QYEHn4DlSBi5D_5C8V4NvjKtsz1Wz1b3Jw4H0yr0MzeTgx49qhkpSkHj-S-R7ExZs1Lt09HBKLrDPkQJogkCD4zOW5D76I87Y7R-I_iU9cPQfpw5kHijtEdBy_XTbuBfURZWiY_PEQLI', u'N0v4tTyFwM5a9dPZXWfgylehDkeFgiTL', u'4/Q_SfOLK354HUMADuXHAjznIMYM9r.QkjYVGFtpPAeaDn_6y0ZQNhg1W5riAI', u'AUTO']
+[u'id_token', u'csrfmiddlewaretoken', u'code', u'login_method']
+[u'eyJhbGciOiJSUzI1NiIsImtpZCI6ImFlODBjZTdkZDIwMjYxNmY5M2FhY2Y4YWM3YzhiMDg1NDRiOTM4ODEifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXVkIjoiMjYwMTE5MTk0NjM0LWtub3ZxZXFkNmlrMnB0aTh1NG5hdXFuYW9pZWVxc2hjLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXpwIjoiMjYwMTE5MTk0NjM0LWtub3ZxZXFkNmlrMnB0aTh1NG5hdXFuYW9pZWVxc2hjLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiY19oYXNoIjoib2RDSTQ1bXhDRUY2SGlDSnp5cTJHdyIsImF0X2hhc2giOiI4emRqTjJ2bEx5d1VkUEV6OThSRFdnIiwic3ViIjoiMTE3MzM1NDc2MDIwNDA3NjMzNjU3IiwiaWF0IjoxMzkyNDcwMjQyLCJleHAiOjEzOTI0NzQxNDJ9.Cu_aKP2u6B6X-D_6fQiPM9YidgQpLO39v9RZ3pa-Iw9O7NGwZYabKdVaGdCua-REBTH5EIEDeB0KKh7UOoSvC2oiocGCHBrmhjiGz_x6-F4tPRMpgYm478zNoYiUsUqJE2R6UEoPpWiTFR1kJXq0pyGqqRvGDjN6Hh7Ukf9mxWQ', u'N0v4tTyFwM5a9dPZXWfgylehDkeFgiTL', u'4/lcmY5MPIVhllz5Gt3r5D9D-jgUHH.ksqXYPYOQCcQ3oEBd8DOtNCNO3BriAI', u'AUTO']
+[u'id_token', u'csrfmiddlewaretoken', u'code', u'login_method']
+[u'eyJhbGciOiJSUzI1NiIsImtpZCI6ImFlODBjZTdkZDIwMjYxNmY5M2FhY2Y4YWM3YzhiMDg1NDRiOTM4ODEifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiY19oYXNoIjoibF9taWRCSXBZQzVqWlNudTB4V0NwdyIsImF6cCI6IjI2MDExOTE5NDYzNC1rbm92cWVxZDZpazJwdGk4dTRuYXVxbmFvaWVlcXNoYy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsImF1ZCI6IjI2MDExOTE5NDYzNC1rbm92cWVxZDZpazJwdGk4dTRuYXVxbmFvaWVlcXNoYy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsImF0X2hhc2giOiIyNDVTNkFYWS0wNEtwYWJFa0FodWVBIiwic3ViIjoiMTE3MzM1NDc2MDIwNDA3NjMzNjU3IiwiaWF0IjoxMzkyNDcwMjQ4LCJleHAiOjEzOTI0NzQxNDh9.bDYW_rxwyLuDuPBOI60QQ98b0la0aFTFG1Y7uK1dPfzPCAJXkvHQHwiCXH6y4mdqdKLPptSWMGnyegTADsCsCZ8aobN0qyfetSiY2gcpB-ZiCRK7bghKyXdkpb3I8WKYG0BMwspIHHiQSDmCpkXsyapsoGQ0akcJq_6oRWhzrsg', u'N0v4tTyFwM5a9dPZXWfgylehDkeFgiTL', u'4/0Xvytw-ojv6m0HIQAs7UWha_TzRo.Aho_SzA06XUVaDn_6y0ZQNgQaXBriAI', u'AUTO']
+[u'id_token', u'csrfmiddlewaretoken', u'code', u'login_method']
+[u'eyJhbGciOiJSUzI1NiIsImtpZCI6ImFlODBjZTdkZDIwMjYxNmY5M2FhY2Y4YWM3YzhiMDg1NDRiOTM4ODEifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXRfaGFzaCI6IkU4S3FINzdiNGh4ZHppRS1XTkxlT2ciLCJzdWIiOiIxMTczMzU0NzYwMjA0MDc2MzM2NTciLCJhenAiOiIyNjAxMTkxOTQ2MzQta25vdnFlcWQ2aWsycHRpOHU0bmF1cW5hb2llZXFzaGMuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIyNjAxMTkxOTQ2MzQta25vdnFlcWQ2aWsycHRpOHU0bmF1cW5hb2llZXFzaGMuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJjX2hhc2giOiIwbHRkQ3Q0UWEza2RSVzBQZnU2RmFnIiwiaWF0IjoxMzkyNDcwNTA3LCJleHAiOjEzOTI0NzQ0MDd9.gv6jdY8mrgDJ2rFpqZtnZogyMKMgeym9nSmzWLFECLFHe1Dy_bWt1FyIHsKLauuLq5jiqf5rkN0AaSUY4KhsLV3eaR0XDUhffziwOcol0D0yAJ3npQI4lxHp7UYQsI9hXHB6__TMTfCb1FksgvdISlait-1HbxKW9kEAwRnmnGc', u'N0v4tTyFwM5a9dPZXWfgylehDkeFgiTL', u'4/O12-04tRIb6AF4xa5McWMA4_XGfq.kiPfGcmcChcSaDn_6y0ZQNjeUnhriAI', u'AUTO']
+[u'id_token', u'csrfmiddlewaretoken', u'code', u'login_method']
+[u'eyJhbGciOiJSUzI1NiIsImtpZCI6ImFlODBjZTdkZDIwMjYxNmY5M2FhY2Y4YWM3YzhiMDg1NDRiOTM4ODEifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXVkIjoiMjYwMTE5MTk0NjM0LWtub3ZxZXFkNmlrMnB0aTh1NG5hdXFuYW9pZWVxc2hjLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTE3MzM1NDc2MDIwNDA3NjMzNjU3IiwiYXRfaGFzaCI6ImppMzZsWE5wSGdwXzRIYnYtek1Gb1EiLCJjX2hhc2giOiJ0amw2NnhyOUwxSWFxNGEtSFlvUkN3IiwiYXpwIjoiMjYwMTE5MTk0NjM0LWtub3ZxZXFkNmlrMnB0aTh1NG5hdXFuYW9pZWVxc2hjLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiaWF0IjoxMzkyNDcwNTQyLCJleHAiOjEzOTI0NzQ0NDJ9.gBXzCWrP8o-oId4pTWnENgMxTDalTiPt1rqsWOe2pDUbynIj7yu470vE4973uyFS-a7wxGwOzaAXUX-Q0QM0KHIO5GUuXdMqwyWfTT2braisHRl-s3O8CFpWiO-z2WugFa56veG640M9G0AUaOcOQRLGLnmgoKFCCeIC4hFNojs', u'N0v4tTyFwM5a9dPZXWfgylehDkeFgiTL', u'4/XkgYqlG7CZMci-sIxPtok5SGqmWa.ohwVO5-7BiIf3oEBd8DOtNDrYXlriAI', u'PROMPT']
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+[u'id_token', u'csrfmiddlewaretoken', u'code', u'login_method']
+[u'eyJhbGciOiJSUzI1NiIsImtpZCI6ImFlODBjZTdkZDIwMjYxNmY5M2FhY2Y4YWM3YzhiMDg1NDRiOTM4ODEifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiY19oYXNoIjoiWEl0NXZmczA3RDNBd0g0N3hiTUJhdyIsImF1ZCI6IjI2MDExOTE5NDYzNC1rbm92cWVxZDZpazJwdGk4dTRuYXVxbmFvaWVlcXNoYy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjExNzMzNTQ3NjAyMDQwNzYzMzY1NyIsImF6cCI6IjI2MDExOTE5NDYzNC1rbm92cWVxZDZpazJwdGk4dTRuYXVxbmFvaWVlcXNoYy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsImF0X2hhc2giOiJsRTNsOENoMjRnbHNrNEdRTndfdmZRIiwiaWF0IjoxMzkyNDgzMDg1LCJleHAiOjEzOTI0ODY5ODV9.A5VkiYEe0dgOLfLjEaUEFM_GCb3yQUofES6aHQUm56AqUFINK2QgYyrMl196da9svMOLOVf70G7KHWzgnBOS7zE8BKkVmvZeySmyMC279Y7ZmFjGvzi748RoFIloyVy1SqxfX2hBGX3JHGGJR5qdft_5fCBslrffmxiBZLSKRnE', u'N0v4tTyFwM5a9dPZXWfgylehDkeFgiTL', u'4/FGdehwb7R6g71DRploz_KZHbYG8t.cunpfT1Khj0aaDn_6y0ZQNj8K_hsiAI', u'AUTO']
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+name: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+created storage
+stored credntial
+added google id
+[u'id_token', u'csrfmiddlewaretoken', u'code', u'login_method']
+[u'eyJhbGciOiJSUzI1NiIsImtpZCI6ImZiMTdmMTBiNDM4MGZmZGNiYzk3OWNlYTJmNTdmMzdmOTg4NmUzMTIifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwic3ViIjoiMTE3MzM1NDc2MDIwNDA3NjMzNjU3IiwiYXRfaGFzaCI6IkhzdWVsNTFTUlU1cG94dVpfS3c5VnciLCJjX2hhc2giOiJpYkhIQjB3TzZjUGtyWThSc2ROczlBIiwiYXVkIjoiMjYwMTE5MTk0NjM0LWtub3ZxZXFkNmlrMnB0aTh1NG5hdXFuYW9pZWVxc2hjLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXpwIjoiMjYwMTE5MTk0NjM0LWtub3ZxZXFkNmlrMnB0aTh1NG5hdXFuYW9pZWVxc2hjLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiaWF0IjoxMzkzMzc4NzIzLCJleHAiOjEzOTMzODI2MjN9.Xloh3qqx4hoo4tTb3odCvOhdsRcI66jWrPOby_5N3LqkQ5keG7V2fOD_d9p9SSCeE6_FwAMpwMkNFO-JNh7EmPDx1dUYKPpUWS4iOy5sF7U38l8bTOoWCokVHH4965Y11Dzl_6FztYrwNuesxH8fQtGsN8zUkmf4ANFbISKYtf8', u'mAHny5KDX9PtVbw9stj7H9zNyU3xqt7O', u'4/fFu6ZJLFxsvorUkX-bdNPsF7ArTd.gvIhb3zh6agcaDn_6y0ZQNgA3LzXiAI', u'AUTO']
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+name: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+created storage
+stored credntial
+added google id
+[u'id_token', u'csrfmiddlewaretoken', u'code', u'login_method']
+[u'eyJhbGciOiJSUzI1NiIsImtpZCI6ImZiMTdmMTBiNDM4MGZmZGNiYzk3OWNlYTJmNTdmMzdmOTg4NmUzMTIifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiMjYwMTE5MTk0NjM0LWtub3ZxZXFkNmlrMnB0aTh1NG5hdXFuYW9pZWVxc2hjLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiY19oYXNoIjoiLVVLYnhSdm1TenhlUzZheDk4NzVrZyIsInN1YiI6IjExNzMzNTQ3NjAyMDQwNzYzMzY1NyIsImF1ZCI6IjI2MDExOTE5NDYzNC1rbm92cWVxZDZpazJwdGk4dTRuYXVxbmFvaWVlcXNoYy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsImF0X2hhc2giOiJoN0NsSmFCc01mWDBlZXRmNTdWQi13IiwiaWF0IjoxMzkzMzc4NzMwLCJleHAiOjEzOTMzODI2MzB9.gNuuJXtmsN0c74cpRvhyE9vz8MD3OMDFq1b8Q5mTQjGoKtlrWi69YfRcl5vvU0E8piESvrVauXpqFq_SDYDZM19LT1gRf1AQUVK9cO663Q9m-Ib7y5fQFoaWzcFoc13ilblyqMNdhGI-Qn4v73n50HbyhavVx5rqP-JEeqqH51E', u'mAHny5KDX9PtVbw9stj7H9zNyU3xqt7O', u'4/xxxbLpu6KwP5qnJXwO5fBIjb4dTF.Yo_TyfL6xuIQaDn_6y0ZQNj8Er3XiAI', u'AUTO']
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+name: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+created storage
+stored credntial
+added google id
+[u'id_token', u'csrfmiddlewaretoken', u'code', u'login_method']
+[u'eyJhbGciOiJSUzI1NiIsImtpZCI6ImZiMTdmMTBiNDM4MGZmZGNiYzk3OWNlYTJmNTdmMzdmOTg4NmUzMTIifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiY19oYXNoIjoiQVBDVVQyVC10dGc4amdFLUVpZVF2ZyIsInN1YiI6IjExNzMzNTQ3NjAyMDQwNzYzMzY1NyIsImF0X2hhc2giOiItZ0VhbHJMQjVkUzl4RFFGOEp0MXZ3IiwiYXpwIjoiMjYwMTE5MTk0NjM0LWtub3ZxZXFkNmlrMnB0aTh1NG5hdXFuYW9pZWVxc2hjLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMjYwMTE5MTk0NjM0LWtub3ZxZXFkNmlrMnB0aTh1NG5hdXFuYW9pZWVxc2hjLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiaWF0IjoxMzkzMzc5ODg4LCJleHAiOjEzOTMzODM3ODh9.Ojgzzuw-gWnxA8VwJBtjs6fqMhnirvs3NB3tZiXXluFDzvRTwxkK24e1scjIZX8GexaUyd0y3rxkamBYZtpzFeO6bXRJ6__DvnvXnkS24qcBA5A99mIKPZuU2TD3_lLCrxxX7R5jPmvGq8cXPB7_lKJbwgxgMlVroUme9yvokpg', u'Tseee7T9IBdolwaxyOJ4hzlgl0AMVwUN', u'4/s5oW6WD0iX02p6ssstaMNNuJB688.IrkSTtKHAEEVaDn_6y0ZQNiEa-DXiAI', u'AUTO']
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+name: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+created storage
+stored credntial
+added google id
+[u'csrfmiddlewaretoken', u'login_method']
+[u'kO0O2tRP4Iq6BXlwnkcW9gBU2MtBOzwR', u'']
+[u'id_token', u'csrfmiddlewaretoken', u'code', u'login_method']
+[u'eyJhbGciOiJSUzI1NiIsImtpZCI6ImZiMTdmMTBiNDM4MGZmZGNiYzk3OWNlYTJmNTdmMzdmOTg4NmUzMTIifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXVkIjoiMjYwMTE5MTk0NjM0LWtub3ZxZXFkNmlrMnB0aTh1NG5hdXFuYW9pZWVxc2hjLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXpwIjoiMjYwMTE5MTk0NjM0LWtub3ZxZXFkNmlrMnB0aTh1NG5hdXFuYW9pZWVxc2hjLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXRfaGFzaCI6IjBtLXFGem9FRFV1WndCNlF4eHZZa2ciLCJjX2hhc2giOiJxMHNvNGJ0QUdpbktieVZPMmpybGxBIiwic3ViIjoiMTE3MzM1NDc2MDIwNDA3NjMzNjU3IiwiaWF0IjoxMzkzMzgxMTU4LCJleHAiOjEzOTMzODUwNTh9.VRhFEyr-1nVa_t3zWafTuOlj6YE8VJizUstP3ov41ne9kiPR3cUotxf-bL2H6v95yaJewWWQ4TyD_dBAP9zPQvN5jAbiN5f2kpjduBHk6Rb948JbDPUgqNAGFpAtUChYQslcBW7NzvyFbDlhABJ5FZdLBUeUQI_NPJEvcZzsUHI', u'kO0O2tRP4Iq6BXlwnkcW9gBU2MtBOzwR', u'4/OKbTaRoWJFbaYe9JoguW1ye4VC7B.MphVCfH1c28aaDn_6y0ZQNgwLAfYiAI', u'PROMPT']
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+name: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+created storage
+stored credntial
+added google id
+[u'csrfmiddlewaretoken', u'login_method']
+[u'BLKg5AVCCNnMDAX0reh6l8mF27s895wv', u'']
+[u'id_token', u'csrfmiddlewaretoken', u'code', u'login_method']
+[u'eyJhbGciOiJSUzI1NiIsImtpZCI6ImZiMTdmMTBiNDM4MGZmZGNiYzk3OWNlYTJmNTdmMzdmOTg4NmUzMTIifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwic3ViIjoiMTE2OTQwMzQ0MzUwMzI3ODU4ODU5IiwiYXpwIjoiMjYwMTE5MTk0NjM0LWtub3ZxZXFkNmlrMnB0aTh1NG5hdXFuYW9pZWVxc2hjLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXRfaGFzaCI6ImZxNFRYdE8xUWFJdzlYYk9wUjVEdHciLCJjX2hhc2giOiJZbTFPSUEyX2IwRjVEUUUxVkNueEhRIiwiYXVkIjoiMjYwMTE5MTk0NjM0LWtub3ZxZXFkNmlrMnB0aTh1NG5hdXFuYW9pZWVxc2hjLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiaWF0IjoxMzkzMzgxMTgxLCJleHAiOjEzOTMzODUwODF9.cTkR_nghOGz1xLaQ-VPbc-vUzG_fkD2RnVopBYGtyRL2FlaqVMnM4lR9SNWvuK38FtpD_cFkNmN1F5_tMoQrCGxzLY5CrQY_RQtGypgWO_3uNa0165lxhr7DIS1lACa7m0RrfE2_Oxy3B9g58MPR-Iw6P3-gTLamzFK-xtMxZz0', u'BLKg5AVCCNnMDAX0reh6l8mF27s895wv', u'4/0nrtO7MsuY29CSTFFaxPIl9wgxn9.gu8KiC_QPGIUaDn_6y0ZQNgQ4QfYiAI', u'PROMPT']
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+116940344350327858859
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+name: {u'givenName': u'', u'familyName': u''}
+created storage
+stored credntial
+added google id
+updating board
+0
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+1
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+2
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+3
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+4
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+5
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+6
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+7
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+8
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+updating board
+0
+data len=9 cells len=9
+setting anchored: False
+adding choice: 2 to row 0 col 0
+setting anchored: False
+adding choice: 1 to row 0 col 1
+setting anchored: False
+adding choice: 8 to row 0 col 2
+setting anchored: False
+adding choice: 7 to row 0 col 3
+setting anchored: False
+adding choice: 9 to row 0 col 4
+setting anchored: False
+adding choice: 6 to row 0 col 5
+setting anchored: False
+adding choice: 5 to row 0 col 6
+setting anchored: False
+adding choice: 4 to row 0 col 7
+setting anchored: False
+adding choice: 3 to row 0 col 8
+1
+data len=9 cells len=9
+setting anchored: False
+adding choice: 7 to row 1 col 0
+setting anchored: False
+adding choice: 4 to row 1 col 1
+setting anchored: False
+adding choice: 9 to row 1 col 2
+setting anchored: False
+adding choice: 5 to row 1 col 3
+setting anchored: False
+adding choice: 3 to row 1 col 4
+setting anchored: False
+adding choice: 1 to row 1 col 5
+setting anchored: False
+adding choice: 8 to row 1 col 6
+setting anchored: False
+adding choice: 2 to row 1 col 7
+setting anchored: False
+adding choice: 6 to row 1 col 8
+2
+data len=9 cells len=9
+setting anchored: False
+adding choice: 5 to row 2 col 0
+setting anchored: False
+adding choice: 3 to row 2 col 1
+setting anchored: False
+adding choice: 6 to row 2 col 2
+setting anchored: False
+adding choice: 2 to row 2 col 3
+setting anchored: False
+adding choice: 4 to row 2 col 4
+setting anchored: False
+adding choice: 8 to row 2 col 5
+setting anchored: False
+adding choice: 9 to row 2 col 6
+setting anchored: False
+adding choice: 7 to row 2 col 7
+setting anchored: False
+adding choice: 1 to row 2 col 8
+3
+data len=9 cells len=9
+setting anchored: False
+adding choice: 9 to row 3 col 0
+setting anchored: False
+adding choice: 5 to row 3 col 1
+setting anchored: False
+adding choice: 4 to row 3 col 2
+setting anchored: False
+adding choice: 3 to row 3 col 3
+setting anchored: False
+adding choice: 1 to row 3 col 4
+setting anchored: False
+adding choice: 7 to row 3 col 5
+setting anchored: False
+adding choice: 6 to row 3 col 6
+setting anchored: False
+adding choice: 8 to row 3 col 7
+setting anchored: False
+adding choice: 2 to row 3 col 8
+4
+data len=9 cells len=9
+setting anchored: False
+adding choice: 8 to row 4 col 0
+setting anchored: False
+adding choice: 7 to row 4 col 1
+setting anchored: False
+adding choice: 1 to row 4 col 2
+setting anchored: False
+adding choice: 6 to row 4 col 3
+setting anchored: False
+adding choice: 2 to row 4 col 4
+setting anchored: False
+adding choice: 5 to row 4 col 5
+setting anchored: False
+adding choice: 4 to row 4 col 6
+setting anchored: False
+adding choice: 3 to row 4 col 7
+setting anchored: False
+adding choice: 9 to row 4 col 8
+5
+data len=9 cells len=9
+setting anchored: False
+adding choice: 3 to row 5 col 0
+setting anchored: False
+adding choice: 6 to row 5 col 1
+setting anchored: False
+adding choice: 2 to row 5 col 2
+setting anchored: False
+adding choice: 4 to row 5 col 3
+setting anchored: False
+adding choice: 8 to row 5 col 4
+setting anchored: False
+adding choice: 9 to row 5 col 5
+setting anchored: False
+adding choice: 1 to row 5 col 6
+setting anchored: False
+adding choice: 5 to row 5 col 7
+setting anchored: False
+adding choice: 7 to row 5 col 8
+6
+data len=9 cells len=9
+setting anchored: False
+adding choice: 1 to row 6 col 0
+setting anchored: False
+adding choice: 8 to row 6 col 1
+setting anchored: False
+adding choice: 5 to row 6 col 2
+setting anchored: False
+adding choice: 9 to row 6 col 3
+setting anchored: False
+adding choice: 7 to row 6 col 4
+setting anchored: False
+adding choice: 3 to row 6 col 5
+setting anchored: False
+adding choice: 2 to row 6 col 6
+setting anchored: False
+adding choice: 6 to row 6 col 7
+setting anchored: False
+adding choice: 4 to row 6 col 8
+7
+data len=9 cells len=9
+setting anchored: False
+adding choice: 4 to row 7 col 0
+setting anchored: False
+adding choice: 9 to row 7 col 1
+setting anchored: False
+adding choice: 7 to row 7 col 2
+setting anchored: False
+adding choice: 8 to row 7 col 3
+setting anchored: False
+adding choice: 6 to row 7 col 4
+setting anchored: False
+adding choice: 2 to row 7 col 5
+setting anchored: False
+adding choice: 3 to row 7 col 6
+setting anchored: False
+adding choice: 1 to row 7 col 7
+setting anchored: False
+adding choice: 5 to row 7 col 8
+8
+data len=9 cells len=9
+setting anchored: False
+adding choice: 6 to row 8 col 0
+setting anchored: False
+adding choice: 2 to row 8 col 1
+setting anchored: False
+adding choice: 3 to row 8 col 2
+setting anchored: False
+adding choice: 1 to row 8 col 3
+setting anchored: False
+adding choice: 5 to row 8 col 4
+setting anchored: False
+adding choice: 4 to row 8 col 5
+setting anchored: False
+adding choice: 7 to row 8 col 6
+setting anchored: False
+adding choice: 9 to row 8 col 7
+setting anchored: False
+adding choice: 8 to row 8 col 8
+[u'csrfmiddlewaretoken', u'login_method']
+[u'3311fl7PMjBlakpz0THSkPnrErn5tHP5', u'']
+[u'id_token', u'csrfmiddlewaretoken', u'code', u'login_method']
+[u'eyJhbGciOiJSUzI1NiIsImtpZCI6ImZiMTdmMTBiNDM4MGZmZGNiYzk3OWNlYTJmNTdmMzdmOTg4NmUzMTIifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiMjYwMTE5MTk0NjM0LWtub3ZxZXFkNmlrMnB0aTh1NG5hdXFuYW9pZWVxc2hjLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXRfaGFzaCI6ImxYVXc2QWZ3S2V4RzdFRWpINVpORnciLCJzdWIiOiIxMTczMzU0NzYwMjA0MDc2MzM2NTciLCJjX2hhc2giOiJ1REZRakFmZFd6RFFRZXFyWFdtejN3IiwiYXVkIjoiMjYwMTE5MTk0NjM0LWtub3ZxZXFkNmlrMnB0aTh1NG5hdXFuYW9pZWVxc2hjLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiaWF0IjoxMzkzMzgxODc1LCJleHAiOjEzOTMzODU3NzV9.FpBx-AyCEeSJfOSjQvl6HFO6DCU5IxYTnxoHjxxZHAmpUsSsSzr9Cw9fiqeEYG2RDig8MlkgoP32-WFEahXuQ21nL-mSHf-Mh7afy2WJ9KXfj1Nu48NOfzNQrEaoJjTDDqt7l9voa3KQvoSR6UkkLZVx54DoK3jzeMbUHVYJbKw', u'3311fl7PMjBlakpz0THSkPnrErn5tHP5', u'4/FgedbJEZrr4Rb8XNv32zdx_Ey078.kukO0iUUFWobaDn_6y0ZQNg6EB3YiAI', u'PROMPT']
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+name: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+created storage
+stored credntial
+added google id
+[u'csrfmiddlewaretoken', u'login_method']
+[u'av0MMME4WWVWDXySS3geRuhHj8JcVvMs', u'']
+[u'id_token', u'csrfmiddlewaretoken', u'code', u'login_method']
+[u'eyJhbGciOiJSUzI1NiIsImtpZCI6ImZiMTdmMTBiNDM4MGZmZGNiYzk3OWNlYTJmNTdmMzdmOTg4NmUzMTIifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXRfaGFzaCI6ImlCZVVwTGVHb3VUS0J0NHI3V0hMNVEiLCJjX2hhc2giOiJxSmczeXpmeElrMzUzSm14MFc0dDR3Iiwic3ViIjoiMTE2OTQwMzQ0MzUwMzI3ODU4ODU5IiwiYXVkIjoiMjYwMTE5MTk0NjM0LWtub3ZxZXFkNmlrMnB0aTh1NG5hdXFuYW9pZWVxc2hjLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXpwIjoiMjYwMTE5MTk0NjM0LWtub3ZxZXFkNmlrMnB0aTh1NG5hdXFuYW9pZWVxc2hjLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiaWF0IjoxMzkzMzgxODk4LCJleHAiOjEzOTMzODU3OTh9.HvyHzCyXOAK9uv4O4mVGCcXfPjwwly9ImauwCMVtXLNpkdb33awBA80UvukejXzjP9cfVJvpPabYtNt5Z2IHzFblOg5ULyoR_FkKWbAdIYY2014NXOcNlmJwzFG4VDC6tws45fB-E4poXmLC93xouvMfNKo6c2i4W2oLaps8Jmw', u'av0MMME4WWVWDXySS3geRuhHj8JcVvMs', u'4/3sB7zFfsvN5eegMrPZOJmntgYwYG.ciu7L96N1MUXaDn_6y0ZQNgWxR3YiAI', u'PROMPT']
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+116940344350327858859
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+name: {u'givenName': u'', u'familyName': u''}
+created storage
+stored credntial
+added google id
+[u'csrfmiddlewaretoken', u'login_method']
+[u'Ia0fi2lWnAJg8kOdfKrgqZgMJfSIfw1J', u'']
+[u'id_token', u'csrfmiddlewaretoken', u'code', u'login_method']
+[u'eyJhbGciOiJSUzI1NiIsImtpZCI6ImZiMTdmMTBiNDM4MGZmZGNiYzk3OWNlYTJmNTdmMzdmOTg4NmUzMTIifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwic3ViIjoiMTE3MzM1NDc2MDIwNDA3NjMzNjU3IiwiYXpwIjoiMjYwMTE5MTk0NjM0LWtub3ZxZXFkNmlrMnB0aTh1NG5hdXFuYW9pZWVxc2hjLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiY19oYXNoIjoiUDV5NTljM3lOc3pnenpBWlhzMkl6ZyIsImF1ZCI6IjI2MDExOTE5NDYzNC1rbm92cWVxZDZpazJwdGk4dTRuYXVxbmFvaWVlcXNoYy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsImF0X2hhc2giOiI1SDRGVFdENmJMazRxbVVjQ1BpUHpBIiwiaWF0IjoxMzkzMzgyNTkwLCJleHAiOjEzOTMzODY0OTB9.crz_rhmsClh3G2OtCb2kOXEhA9TWaRsP5T1AGLLJaNm3S8hefLkoak4huLA7LJxXqtujUBVYK4mVs8_xnpSx8YDXhVYEbhCn8j-fha9cBkd5KxcYNXJIuqSTHXHm4teBKMAV1NviHx5uqQWAbTavVhZsqn04oHECmD_JA-Tazu4', u'Ia0fi2lWnAJg8kOdfKrgqZgMJfSIfw1J', u'4/cuDk3dVnzHXUmavOqf1HlyA0dgN1.EjFfxshDrnIUaDn_6y0ZQNgi3zLYiAI', u'PROMPT']
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+117335476020407633657
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+name: {u'givenName': u'Lance', u'familyName': u'Anderson'}
+created storage
+stored credntial
+added google id
+updating board
+0
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: True
+adding choice: 7 to row 0 col 2
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: True
+adding choice: 2 to row 0 col 6
+setting anchored: False
+setting anchored: True
+adding choice: 5 to row 0 col 8
+1
+data len=9 cells len=9
+setting anchored: False
+setting anchored: True
+adding choice: 5 to row 1 col 1
+setting anchored: False
+setting anchored: False
+setting anchored: True
+adding choice: 4 to row 1 col 4
+setting anchored: True
+adding choice: 7 to row 1 col 5
+setting anchored: False
+setting anchored: True
+adding choice: 9 to row 1 col 7
+setting anchored: False
+2
+data len=9 cells len=9
+setting anchored: True
+adding choice: 2 to row 2 col 0
+setting anchored: False
+setting anchored: False
+setting anchored: True
+adding choice: 3 to row 2 col 3
+setting anchored: False
+setting anchored: False
+setting anchored: True
+adding choice: 1 to row 2 col 6
+setting anchored: False
+setting anchored: False
+3
+data len=9 cells len=9
+setting anchored: False
+setting anchored: True
+adding choice: 9 to row 3 col 1
+setting anchored: True
+adding choice: 1 to row 3 col 2
+setting anchored: False
+setting anchored: False
+setting anchored: True
+adding choice: 6 to row 3 col 5
+setting anchored: False
+setting anchored: False
+setting anchored: False
+4
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: True
+adding choice: 5 to row 4 col 4
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+5
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: True
+adding choice: 8 to row 5 col 3
+setting anchored: False
+setting anchored: False
+setting anchored: True
+adding choice: 9 to row 5 col 6
+setting anchored: True
+adding choice: 5 to row 5 col 7
+setting anchored: False
+6
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: True
+adding choice: 5 to row 6 col 2
+setting anchored: False
+setting anchored: False
+setting anchored: True
+adding choice: 2 to row 6 col 5
+setting anchored: False
+setting anchored: False
+setting anchored: True
+adding choice: 9 to row 6 col 8
+7
+data len=9 cells len=9
+setting anchored: False
+setting anchored: True
+adding choice: 1 to row 7 col 1
+setting anchored: False
+setting anchored: True
+adding choice: 4 to row 7 col 3
+setting anchored: True
+adding choice: 8 to row 7 col 4
+setting anchored: False
+setting anchored: False
+setting anchored: True
+adding choice: 7 to row 7 col 7
+setting anchored: False
+8
+data len=9 cells len=9
+setting anchored: True
+adding choice: 4 to row 8 col 0
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: True
+adding choice: 8 to row 8 col 6
+setting anchored: False
+setting anchored: False
+updating board
+0
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: True
+adding choice: 7 to row 0 col 2
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: True
+adding choice: 2 to row 0 col 6
+setting anchored: False
+setting anchored: True
+adding choice: 5 to row 0 col 8
+1
+data len=9 cells len=9
+setting anchored: False
+setting anchored: True
+adding choice: 5 to row 1 col 1
+setting anchored: False
+setting anchored: False
+setting anchored: True
+adding choice: 4 to row 1 col 4
+setting anchored: True
+adding choice: 7 to row 1 col 5
+setting anchored: False
+setting anchored: True
+adding choice: 9 to row 1 col 7
+setting anchored: False
+2
+data len=9 cells len=9
+setting anchored: True
+adding choice: 2 to row 2 col 0
+setting anchored: False
+setting anchored: False
+setting anchored: True
+adding choice: 3 to row 2 col 3
+setting anchored: False
+setting anchored: False
+setting anchored: True
+adding choice: 1 to row 2 col 6
+setting anchored: False
+setting anchored: False
+3
+data len=9 cells len=9
+setting anchored: False
+setting anchored: True
+adding choice: 9 to row 3 col 1
+setting anchored: True
+adding choice: 1 to row 3 col 2
+setting anchored: False
+setting anchored: False
+setting anchored: True
+adding choice: 6 to row 3 col 5
+setting anchored: False
+setting anchored: False
+setting anchored: False
+4
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: True
+adding choice: 5 to row 4 col 4
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+5
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: True
+adding choice: 8 to row 5 col 3
+setting anchored: False
+setting anchored: False
+setting anchored: True
+adding choice: 9 to row 5 col 6
+setting anchored: True
+adding choice: 5 to row 5 col 7
+setting anchored: False
+6
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: True
+adding choice: 5 to row 6 col 2
+setting anchored: False
+setting anchored: False
+setting anchored: True
+adding choice: 2 to row 6 col 5
+setting anchored: False
+setting anchored: False
+setting anchored: True
+adding choice: 9 to row 6 col 8
+7
+data len=9 cells len=9
+setting anchored: False
+setting anchored: True
+adding choice: 1 to row 7 col 1
+setting anchored: False
+setting anchored: True
+adding choice: 4 to row 7 col 3
+setting anchored: True
+adding choice: 8 to row 7 col 4
+setting anchored: False
+setting anchored: False
+setting anchored: True
+adding choice: 7 to row 7 col 7
+setting anchored: False
+8
+data len=9 cells len=9
+setting anchored: True
+adding choice: 4 to row 8 col 0
+setting anchored: False
+setting anchored: True
+adding choice: 6 to row 8 col 2
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: True
+adding choice: 8 to row 8 col 6
+setting anchored: False
+setting anchored: False
+updating board
+0
+data len=9 cells len=9
+setting anchored: False
+adding choice: 6 to row 0 col 0
+setting anchored: False
+adding choice: 4 to row 0 col 1
+setting anchored: True
+adding choice: 7 to row 0 col 2
+setting anchored: False
+adding choice: 1 to row 0 col 3
+setting anchored: False
+adding choice: 9 to row 0 col 4
+setting anchored: False
+adding choice: 8 to row 0 col 5
+setting anchored: True
+adding choice: 2 to row 0 col 6
+setting anchored: False
+adding choice: 3 to row 0 col 7
+setting anchored: True
+adding choice: 5 to row 0 col 8
+1
+data len=9 cells len=9
+setting anchored: False
+adding choice: 1 to row 1 col 0
+setting anchored: True
+adding choice: 5 to row 1 col 1
+setting anchored: False
+adding choice: 3 to row 1 col 2
+setting anchored: False
+adding choice: 2 to row 1 col 3
+setting anchored: True
+adding choice: 4 to row 1 col 4
+setting anchored: True
+adding choice: 7 to row 1 col 5
+setting anchored: False
+adding choice: 6 to row 1 col 6
+setting anchored: True
+adding choice: 9 to row 1 col 7
+setting anchored: False
+adding choice: 8 to row 1 col 8
+2
+data len=9 cells len=9
+setting anchored: True
+adding choice: 2 to row 2 col 0
+setting anchored: False
+adding choice: 8 to row 2 col 1
+setting anchored: False
+adding choice: 9 to row 2 col 2
+setting anchored: True
+adding choice: 3 to row 2 col 3
+setting anchored: False
+adding choice: 6 to row 2 col 4
+setting anchored: False
+adding choice: 5 to row 2 col 5
+setting anchored: True
+adding choice: 1 to row 2 col 6
+setting anchored: False
+adding choice: 4 to row 2 col 7
+setting anchored: False
+adding choice: 7 to row 2 col 8
+3
+data len=9 cells len=9
+setting anchored: False
+adding choice: 5 to row 3 col 0
+setting anchored: True
+adding choice: 9 to row 3 col 1
+setting anchored: True
+adding choice: 1 to row 3 col 2
+setting anchored: False
+adding choice: 7 to row 3 col 3
+setting anchored: False
+adding choice: 2 to row 3 col 4
+setting anchored: True
+adding choice: 6 to row 3 col 5
+setting anchored: False
+adding choice: 3 to row 3 col 6
+setting anchored: False
+adding choice: 8 to row 3 col 7
+setting anchored: False
+adding choice: 4 to row 3 col 8
+4
+data len=9 cells len=9
+setting anchored: False
+adding choice: 3 to row 4 col 0
+setting anchored: False
+adding choice: 2 to row 4 col 1
+setting anchored: False
+adding choice: 8 to row 4 col 2
+setting anchored: False
+adding choice: 9 to row 4 col 3
+setting anchored: True
+adding choice: 5 to row 4 col 4
+setting anchored: False
+adding choice: 4 to row 4 col 5
+setting anchored: False
+adding choice: 7 to row 4 col 6
+setting anchored: False
+adding choice: 6 to row 4 col 7
+setting anchored: False
+adding choice: 1 to row 4 col 8
+5
+data len=9 cells len=9
+setting anchored: False
+adding choice: 7 to row 5 col 0
+setting anchored: False
+adding choice: 6 to row 5 col 1
+setting anchored: False
+adding choice: 4 to row 5 col 2
+setting anchored: True
+adding choice: 8 to row 5 col 3
+setting anchored: False
+adding choice: 3 to row 5 col 4
+setting anchored: False
+adding choice: 1 to row 5 col 5
+setting anchored: True
+adding choice: 9 to row 5 col 6
+setting anchored: True
+adding choice: 5 to row 5 col 7
+setting anchored: False
+adding choice: 2 to row 5 col 8
+6
+data len=9 cells len=9
+setting anchored: False
+adding choice: 8 to row 6 col 0
+setting anchored: False
+adding choice: 3 to row 6 col 1
+setting anchored: True
+adding choice: 5 to row 6 col 2
+setting anchored: False
+adding choice: 6 to row 6 col 3
+setting anchored: False
+adding choice: 7 to row 6 col 4
+setting anchored: True
+adding choice: 2 to row 6 col 5
+setting anchored: False
+adding choice: 4 to row 6 col 6
+setting anchored: False
+adding choice: 1 to row 6 col 7
+setting anchored: True
+adding choice: 9 to row 6 col 8
+7
+data len=9 cells len=9
+setting anchored: False
+adding choice: 9 to row 7 col 0
+setting anchored: True
+adding choice: 1 to row 7 col 1
+setting anchored: False
+adding choice: 2 to row 7 col 2
+setting anchored: True
+adding choice: 4 to row 7 col 3
+setting anchored: True
+adding choice: 8 to row 7 col 4
+setting anchored: False
+adding choice: 3 to row 7 col 5
+setting anchored: False
+adding choice: 5 to row 7 col 6
+setting anchored: True
+adding choice: 7 to row 7 col 7
+setting anchored: False
+adding choice: 6 to row 7 col 8
+8
+data len=9 cells len=9
+setting anchored: True
+adding choice: 4 to row 8 col 0
+setting anchored: False
+adding choice: 7 to row 8 col 1
+setting anchored: True
+adding choice: 6 to row 8 col 2
+setting anchored: False
+adding choice: 5 to row 8 col 3
+setting anchored: False
+adding choice: 1 to row 8 col 4
+setting anchored: False
+adding choice: 9 to row 8 col 5
+setting anchored: True
+adding choice: 8 to row 8 col 6
+setting anchored: False
+adding choice: 2 to row 8 col 7
+setting anchored: False
+adding choice: 3 to row 8 col 8
+[u'csrfmiddlewaretoken', u'login_method']
+[u'O0qJMf0WlXojHs8lGKrY4ZB9GWqPpw7g', u'']
+[u'id_token', u'csrfmiddlewaretoken', u'code', u'login_method']
+[u'eyJhbGciOiJSUzI1NiIsImtpZCI6ImZiMTdmMTBiNDM4MGZmZGNiYzk3OWNlYTJmNTdmMzdmOTg4NmUzMTIifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiMjYwMTE5MTk0NjM0LWtub3ZxZXFkNmlrMnB0aTh1NG5hdXFuYW9pZWVxc2hjLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXRfaGFzaCI6InRTWExPYUJnYVpxWkNqYlhET3g3LUEiLCJhdWQiOiIyNjAxMTkxOTQ2MzQta25vdnFlcWQ2aWsycHRpOHU0bmF1cW5hb2llZXFzaGMuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJjX2hhc2giOiJDTW5tSzJEaDJKMG9vOHVFLTdKMmhRIiwic3ViIjoiMTE2OTQwMzQ0MzUwMzI3ODU4ODU5IiwiaWF0IjoxMzkzMzgyODg3LCJleHAiOjEzOTMzODY3ODd9.dLf8HT97QMLNvPK4KZ0SY3h0GXz0XWcQbqg6dcdMVdAoqBLXHXQ4k-gg6iybGBTsPyOd1jO6sgv2UxrG1zkC5Qc8k-3SgYqa7EeVnpi67vUzAkfHreiher-gSEPU1wgbL6p3D7-TZYd6YOSmNiRP_Ebp99ia4eGsSV1g3Quhb8o', u'O0qJMf0WlXojHs8lGKrY4ZB9GWqPpw7g', u'4/7kwcJPg36R7x3h4-dpckbZUkFbcg.osKxXtWz1AodaDn_6y0ZQNj-8TvYiAI', u'PROMPT']
+authenticating
+cs key: [u'redirect_uris', u'token_uri', u'auth_provider_x509_cert_url', u'auth_uri', u'client_email', u'client_id', u'client_secret', u'javascript_origins', u'client_x509_cert_url']
+116940344350327858859
+creating user
+here2
+['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__getstate__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_add_basic_methods', '_add_nested_resources', '_add_next_methods', '_baseUrl', '_developerKey', '_dynamic_attrs', '_http', '_model', '_requestBuilder', '_resourceDesc', '_rootDesc', '_schema', '_set_dynamic_attr', '_set_service_methods', u'activities', u'comments', u'moments', u'people']
+name: {u'givenName': u'', u'familyName': u''}
+created storage
+stored credntial
+added google id

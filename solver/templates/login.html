@@ -1,11 +1,6 @@
-<html itemscope itemtype="http://schema.org/Article">
-<head>
-<title>Sudoku Solver</title>
-  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
-  <link href='/static/solver/css/solver.css' rel='stylesheet' type='text/css'></link>
-  <script src="http://code.jquery.com/jquery-2.0.3.js"></script>
-  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-  <script src='/static/solver/js/util.js'> </script>
+{% extends 'base.html' %}
+
+{% block main_script %}
   <script type='text/javascript'>
     (function () {
       var po = document.createElement('script');
@@ -16,10 +11,9 @@
       s.parentNode.insertBefore(po, s);
     })();
   </script>
-</head>
-<body>
-  <form id='csrf_form'>{% csrf_token %} </form>
-  <h2>All your sudoku are belong to us</h2>
+{% endblock %}
+
+{% block main_content %}
   <div id='signinButton'>
   <span class="g-signin"
     data-scope="https://www.googleapis.com/auth/plus.login"
@@ -30,5 +24,4 @@
     data-callback="signInCallback">
   </span>
   </div>
-</body>
-</html>
+{% endblock %}

@@ -108,3 +108,9 @@ h3 {
 #board_div {
   width: 80%;
 }
+
+#nav_div {
+  position: absolute;
+  top: 10px;
+  left: 90%;
+}

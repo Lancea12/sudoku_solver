@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Sudoku Solver</title>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+  <link href='/static/solver/css/solver.css' rel='stylesheet' type='text/css'></link>
+  <script src="http://code.jquery.com/jquery-2.0.3.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  <script src='/static/solver/js/cell.js'> </script>
+  <script src='/static/solver/js/group.js'> </script>
+  <script src='/static/solver/js/row.js'> </script>
+  <script src='/static/solver/js/col.js'> </script>
+  <script src='/static/solver/js/tic.js'> </script>
+  <script src='/static/solver/js/board.js'> </script>
+  <script src='/static/solver/js/load_dialog.js'> </script>
+  <script src='/static/solver/js/save_dialog.js'> </script>
+  <script src='/static/solver/js/control_button.js'> </script>
+  <script src='/static/solver/js/control_link.js'> </script>
+  <script src='/static/solver/js/num_button.js'> </script>
+  <script src='/static/solver/js/solve_link.js'> </script>
+  <script src='/static/solver/js/anchor_link.js'> </script>
+  <script src='/static/solver/js/clear_link.js'> </script>
+  <script src='/static/solver/js/load_link.js'> </script>
+  <script src='/static/solver/js/save_link.js'> </script>
+  <script src='/static/solver/js/controls.js'> </script>
+  <script src='/static/solver/js/util.js'> </script>
+  {% block main_script %}
+  {% endblock %}
+</head>
+<body>
+  <form id='csrf_form'>{% csrf_token %} </form>
+  <h2>All your sudoku are belong to us</h2>
+  {% block main_content %}
+  {% endblock %}
+  <div id='nav_div'>
+    <a href='/'>home</a> |
+    <a href='/accounts/logout'>logout</a>
+  </div>
+  <div id='ads_div'>
+  </div>
+</body>
+</html>
+

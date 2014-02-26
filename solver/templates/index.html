@@ -1,20 +1,12 @@
-<html>
-<head>
-<title>Sudoku Solver</title>
-  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
-  <link href='/static/solver/css/solver.css' rel='stylesheet' type='text/css'></link>
-  <script src="http://code.jquery.com/jquery-2.0.3.js"></script>
-  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-  <script src='/static/solver/js/board.js'> </script>
-  <script src='/static/solver/js/util.js'> </script>
+{% extends 'base.html' %}
+{% block main_script %}
   <script> 
 $(function(fn){
 })
   </script>
-</head>
-<body>
-  <form id='csrf_form'>{% csrf_token %} </form>
-  <h2>All your sudoku are belong to us</h2>
+{% endblock %}
+
+{% block main_content %}
   <div id='list_div'>
     <h3 id='board_name'>My Puzzles:</h3>
     <table id='board_list_table'>
@@ -35,9 +27,4 @@ $(function(fn){
       </tr>
     </table>
   </div>
-  <div id='controls_div'>
-    <table id='controls_table'>
-    </table>
-  </div>
-</body>
-</html>
+{% endblock %}
