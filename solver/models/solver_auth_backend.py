@@ -11,6 +11,7 @@ from oauth2client.django_orm import Storage
 from oauth2client.tools import run_flow
 from apiclient.discovery import build
 from solver.models.solver_user import Solver_User_Info
+from solver.controllers.util import Util
 import logging
 import httplib2
 import json
@@ -18,17 +19,17 @@ import base64
 import jwt
 
 CLIENT_SECRETS = 'client_secrets.json'
-OAUTH2_STORAGE = 'oauth2.dat'
 
 class Solver_Auth_Backend(object):
 
   logger = logging.getLogger('solver')
   
   def authenticate(self, token=None):
-    self.logger.debug('authenticating')
-    cs = self.get_client_secrets()
-    self.logger.debug('cs key: %s' % (cs.keys()) )
-    id_token = verify_id_token(token['id_token'], cs['client_id'])
+    #self.logger.debug('authenticating')
+    cs = Util.get_client_secrets()
+    #self.logger.debug('cs key: %s' % (cs.keys()) )
+    self.logger.debug('client_id = %s' % (cs['client_id']))
+    id_token = verify_id_token(str(token['id_token']), str(cs['client_id']))
     try:
       self.logger.debug(id_token['sub'])
       user = User.objects.get(id=str(id_token['sub']))
@@ -37,14 +38,9 @@ class Solver_Auth_Backend(object):
     except:
       return self.create_user(token['code'], id_token)
     
-  def get_client_secrets(self):
-    f = open('client_secrets.json', 'r')
-    return json.loads(f.read())['web'] 
-
-  
   def create_user(self, code, id_token):
     self.logger.debug('creating user')
-    cs = self.get_client_secrets()
+    cs = Util.get_client_secrets()
     credential = credentials_from_code(cs['client_id'], cs['client_secret'],
       'https://www.googleapis.com/auth/plus.me', code)
     self.logger.debug('here2')

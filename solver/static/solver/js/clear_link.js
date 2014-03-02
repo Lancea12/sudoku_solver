@@ -1,7 +1,6 @@
 (function($){
   $.fn.clear_link_control = function(board){
-    var link = $(document.body).control_link(board, {label : 'Clear'});
-    var opts = $.extend(this, link);
+    this.control_link({board: board, title : 'Clear Unanchored Cells'});
 
     this.click($.proxy(function(event){
       this.board.clear();

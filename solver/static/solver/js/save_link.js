@@ -1,7 +1,6 @@
 (function($){
   $.fn.save_link_control = function(board){
-    var link = $(document.body).control_link(board, {label: 'Save'});
-    var opts = $.extend(this, link);
+    this.control_link({board: board, title: 'Save'});
 
     this.click($.proxy(function(event){
       board.remove_keystroke_handler();

@@ -1,8 +1,6 @@
 (function($){
   $.fn.load_link_control = function(board){
-    var link = $(document.body).control_link(board, {label: 'Load'});
-    var opts = $.extend(this, link);
-
+    this.control_link({board: board, title: 'Reload Board'});
 
     this.click($.proxy(function(event){
       board.load_data();

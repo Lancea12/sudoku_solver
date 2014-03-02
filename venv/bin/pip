@@ -1,4 +1,4 @@
-#!/home/landerson/workspace/sudoku_solver/venv/bin/python
+#!/home/landerson/workspace/sudoku_solver/venv/bin/python2
 
 # -*- coding: utf-8 -*-
 import re

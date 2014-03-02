@@ -1,17 +1,25 @@
 from django.http import HttpResponse
+from django.http import HttpResponseForbidden
 from django.template import RequestContext, loader
 from django.dispatch import receiver
 from django.db.models.signals import post_save
 from django.contrib.auth.models import User
 from django.contrib import auth
 from django.shortcuts import redirect
+from django.contrib.auth.decorators import login_required
+from solver.controllers.util import Util
 import logging
 
 from solver.models.board import Board
 
 logger = logging.getLogger('solver')
 
+@login_required
 def index(request, id):
+  logger.debug('user id = %d, id = %d' % (request.user.id, int(id)))
+  if(request.user.id != int(id)):
+    template = loader.get_template('forbidden.html')
+    return HttpResponseForbidden(template.render(RequestContext(request, {})))
   template = loader.get_template('index.html')
   (user, created) = User.objects.get_or_create(id=id)
   context = RequestContext(request, {'board_list' : user.board_set.values()})
@@ -19,8 +27,8 @@ def index(request, id):
 
 def login(request):
   if(request.method == "PUT" or request.method == "POST"):
-    logger.debug(request.POST.keys())
-    logger.debug(request.POST.values())
+    #logger.debug(request.POST.keys())
+    #logger.debug(request.POST.values())
     if(request.POST.has_key('code') and 
       #request.POST.has_key('login_method') and 
       #request.POST['login_method'] == 'PROMPT' and
@@ -37,7 +45,8 @@ def login(request):
       return HttpResponse("error: code or id_token missing")
     
   template = loader.get_template('login.html')
-  context = RequestContext(request, {})
+  client_id = Util.get_client_secrets()['client_id']
+  context = RequestContext(request, {'client_id' : client_id})
   return HttpResponse(template.render(context))
 
 def logout(request):

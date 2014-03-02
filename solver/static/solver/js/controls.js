@@ -25,27 +25,27 @@
 
       col = $('<td></td>');
       row.append(col);
-      var solve_button = $(document.body).solve_link_control(board);
+      var solve_button = $('<a></a>').solve_link_control(board);
       col.append(solve_button);
 
       col = $('<td></td>');
       row.append(col);
-      var anchor_button = $(document.body).anchor_link_control(board);
+      var anchor_button = $('<a></a>').anchor_link_control(board);
       col.append(anchor_button);
 
       col = $('<td></td>');
       row.append(col);
-      var clear_button = $(document.body).clear_link_control(board);
+      var clear_button = $('<a></a>').clear_link_control(board);
       col.append(clear_button);
 
       col = $('<td></td>');
       row.append(col);
-      var load_link = $(document.body).load_link_control(board);
+      var load_link = $('<a></a>').load_link_control(board);
       col.append(load_link);
 
       col = $('<td></td>');
       row.append(col);
-      var save_link = $(document.body).save_link_control(board);
+      var save_link = $('<a></a>').save_link_control(board);
       col.append(save_link);
       
     }

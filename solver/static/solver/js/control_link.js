@@ -1,11 +1,12 @@
 (function($){
-  $.fn.control_link = function(board, options){
-    var link = $('<a></a>');
-    var opts = $.extend(this, link);
+  $.fn.control_link = function(options){
+    var opts = $.extend(this, options);
 
     this.addClass('control_link');
     this.addClass('ui-icon');
-    this.board = board;
+
+    this[0].title = this.title;
+    this.tooltip();
 
     return this;
   }

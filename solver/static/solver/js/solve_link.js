@@ -1,8 +1,6 @@
 (function($){
   $.fn.solve_link_control = function(board){
-    var link = $(document.body).control_link(board, {label : 'Solve'});
-    var opts = $.extend(this, link);
-
+    this.control_link({board : board, title : 'Solve'});
 
     this.click($.proxy(function(event){
       this.board.solve();

@@ -1,7 +1,6 @@
 (function($){
   $.fn.anchor_link_control = function(board){
-    var link = $(document.body).control_link(board, {label : 'Anchor'});
-    var opts = $.extend(this, link);
+    this.control_link({board: board, title : 'Toggle Anchored Cells'});
 
 
     this.click($.proxy(function(event){
