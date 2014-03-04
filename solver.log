@@ -2723,3 +2723,246 @@ user id = 1, id = 1
 user id = 1, id = 1
 user id = 1, id = 1
 user id = 1, id = 1
+testing correct user id and ownership of requested board
+testing correct user id and ownership of requested board
+testing correct user id and ownership of requested board
+requesting user_id = 1, requested user_id = 1
+testing correct user id and ownership of requested board
+requesting user_id = 1, requested user_id = 1
+testing correct user id and ownership of requested board
+requesting user_id = 1, requested user_id = 1
+testing correct user id and ownership of requested board
+requesting user_id = 1, requested user_id = 1
+testing correct user id and ownership of requested board
+requesting user_id = 1, requested user_id = 1
+requested board_id = 5 ownership = 1
+testing correct user id and ownership of requested board
+requesting user_id = 1, requested user_id = 1
+requested board_id = 5 ownership = 0
+user id = 1, id = 1
+user id = 1, id = 1
+user id = 1, id = 2
+testing correct user id and ownership of requested board
+requesting user_id = 1, requested user_id = 1
+requested board_id = 1 ownership = 1
+testing correct user id and ownership of requested board
+requesting user_id = 1, requested user_id = 1
+requested board_id = 2 ownership = 1
+testing correct user id and ownership of requested board
+requesting user_id = 1, requested user_id = 1
+requested board_id = 3 ownership = 0
+updating board
+0
+data len=9 cells len=9
+setting anchored: False
+adding choice: 1 to row 0 col 0
+setting anchored: False
+adding choice: 2 to row 0 col 1
+setting anchored: False
+adding choice: 3 to row 0 col 2
+setting anchored: False
+adding choice: 4 to row 0 col 3
+setting anchored: False
+adding choice: 5 to row 0 col 4
+setting anchored: False
+adding choice: 6 to row 0 col 5
+setting anchored: False
+setting anchored: False
+setting anchored: False
+1
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+2
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+3
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+4
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+5
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+6
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+7
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+8
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+updating board
+0
+data len=9 cells len=9
+setting anchored: False
+adding choice: 1 to row 0 col 0
+setting anchored: False
+adding choice: 2 to row 0 col 1
+setting anchored: False
+adding choice: 3 to row 0 col 2
+setting anchored: False
+adding choice: 4 to row 0 col 3
+setting anchored: False
+adding choice: 5 to row 0 col 4
+setting anchored: False
+adding choice: 6 to row 0 col 5
+setting anchored: False
+adding choice: 7 to row 0 col 6
+setting anchored: False
+adding choice: 8 to row 0 col 7
+setting anchored: False
+adding choice: 9 to row 0 col 8
+1
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+2
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+3
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+4
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+5
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+6
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+7
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+8
+data len=9 cells len=9
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False
+setting anchored: False

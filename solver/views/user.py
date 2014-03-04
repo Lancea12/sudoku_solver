@@ -14,14 +14,23 @@ from solver.models.board import Board
 
 logger = logging.getLogger('solver')
 
-@login_required
-def index(request, id):
-  logger.debug('user id = %d, id = %d' % (request.user.id, int(id)))
+def user_check(request, id):
   if(request.user.id != int(id)):
     template = loader.get_template('forbidden.html')
     return HttpResponseForbidden(template.render(RequestContext(request, {})))
+  return None
+
+
+@login_required
+def index(request, id=-1):
+  if(id == -1):
+    user = request.user
+  else:
+    check = user_check(request, id)
+    if(check != None):
+      return check
+    user = User.objects.get(id=id)
   template = loader.get_template('index.html')
-  (user, created) = User.objects.get_or_create(id=id)
   context = RequestContext(request, {'board_list' : user.board_set.values()})
   return HttpResponse(template.render(context))
 

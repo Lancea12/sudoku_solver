@@ -40,6 +40,16 @@
 
       col = $('<td></td>');
       row.append(col);
+      var undo_button = $('<a></a>').undo_link_control(board);
+      col.append(undo_button);
+      
+      col = $('<td></td>');
+      row.append(col);
+      var redo_button = $('<a></a>').redo_link_control(board);
+      col.append(redo_button);
+
+      col = $('<td></td>');
+      row.append(col);
       var load_link = $('<a></a>').load_link_control(board);
       col.append(load_link);
 

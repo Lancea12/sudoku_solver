@@ -10,6 +10,6 @@ from solver.models.board import Board
 
 @login_required
 def index(request):
-    return redirect('solver.views.user.index', id=request.user.id)
+    return redirect('solver.views.user.index')
 
     

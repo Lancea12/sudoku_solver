@@ -81,7 +81,8 @@
       }
     }
 
-    this.add_choice = function(ch){
+    this.add_choice = function(ch, add_to_hist){
+      add_to_hist = typeof add_to_hist !== 'undefined' ? add_to_hist : true;
       if(ch < 1 || ch > 9){
         return false;;
       }
@@ -90,6 +91,9 @@
       }
       this.choices[ch-1] = ch;
       this.num_choices++;
+      if(add_to_hist){
+        this.add_to_history(ch, this.ADD);
+      }
       this.update_display();
       return true;
     }
@@ -107,7 +111,8 @@
      //return this.mod;
     }
 
-    this.remove_choice = function(ch){
+    this.remove_choice = function(ch, add_to_hist){
+      add_to_hist = typeof add_to_hist !== 'undefined' ? add_to_hist : true;
       if(ch < 1 || ch > 9){
         return false;
       }
@@ -116,8 +121,31 @@
       }
       delete(this.choices[ch-1]);
       this.num_choices--;
+      if(add_to_hist){
+        this.add_to_history(ch, this.REMOVE);
+      }
       this.update_display();
       return true;
+    }
+
+    this.add_to_history = function(ch, action){
+      row.board.add_to_history(row_index, col_index, ch, action);
+    }
+
+    this.undo = function(ch, action){
+      if(action == this.ADD){
+        this.remove_choice(ch, false);
+      } else if(action == this.REMOVE){
+        this.add_choice(ch, false);
+      }
+    }
+
+    this.redo = function(ch, action){
+      if(action == this.ADD){
+        this.add_choice(ch, false);
+      } else if(action == this.REMOVE){
+        this.remove_choice(ch, false);
+      }
     }
 
     this.choices_issubset = function(test_choices){
@@ -137,7 +165,7 @@
         this.add_choice(ch);
       }else{
         this.remove_choice(ch);
-     }
+      }
     }
 
     this.set_anchor_cell = function(val){
@@ -155,9 +183,10 @@
       }
     }
 
-    this.remove_all_choices = function(){
+    this.remove_all_choices = function(add_to_hist){
+      add_to_hist = typeof add_to_hist !== 'undefined' ? add_to_hist : true;
       for(var i=1; i<=9; i++){
-        this.remove_choice(i);
+        this.remove_choice(i, add_to_hist);
       }
     }
 
@@ -191,7 +220,7 @@
       for(var choice_index=0; choice_index<9; choice_index++){
         var choice = cell_data['choices'][choice_index];
         if(choice != null){
-          this.add_choice(choice);
+          this.add_choice(choice, false);
         }
       }
 
@@ -217,6 +246,8 @@
     
     
 
+    this.ADD = 'add';
+    this.REMOVE = 'remove';
     this.choices = [];
     this.anchor_cell = false;
     this.num_choices = 0;

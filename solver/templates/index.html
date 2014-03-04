@@ -14,7 +14,7 @@ $(function(fn){
       <tr id='board_{{board.id}}' class={% cycle 'first_row' 'second_row' %}>
         <td class='board_name_cell'>{{ board.name  }}</td>
         <td><span><a class='board_icon ui-icon ui-icon-pencil' 
-             href='board.html/{{ board.id }}/'></a></td>
+             href='/board.html/{{ board.id }}/'></a></td>
         <td><a class='board_icon ui-icon ui-icon-trash' 
              href='javascript:delete_board({{ board.id }});'></a></td>
       </tr>
@@ -22,7 +22,7 @@ $(function(fn){
       <tr>
         <td class='board_name_cell new_board_cell'>Create New: </td>
         <td class='new_board_cell' colspan=2>
-          <a class='ui-icon ui-icon-plus' href='board.html'></a>
+          <a class='ui-icon ui-icon-plus' href='/board.html'></a>
         </td>
       </tr>
     </table>

@@ -3,7 +3,7 @@
     if(options == null){
       options = {};
     }
-    var di = $("<div id='load_dialog' title='Save Board'></div>").dialog();
+    var di = $("<div id='save_dialog' title='Save Board'></div>").dialog();
     var opts = $.extend(this, di);
 
     this.build_dialog = function (){
@@ -14,7 +14,7 @@
       this.append(this.text);
       var lb = $('<button>Save</button>');
       lb.click($.proxy(function(event){
-        $.ajax('/user/' + board.user_id + '/board/', {
+        $.ajax('/board/', {
           success: $.proxy(this.list_success, this),
           dataType: 'json',
         });

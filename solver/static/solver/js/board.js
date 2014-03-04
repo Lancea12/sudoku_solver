@@ -94,7 +94,7 @@
     this.clear = function(){
       this.rows.forEach(function(row){
         row.cells.forEach(function(cell){
-          cell.remove_all_choices();
+          cell.remove_all_choices(false);
         }, this);
       }, this);
     }
@@ -113,7 +113,7 @@
     }
 
     this.load_data = function(){
-      $.ajax('/user/' + this.user_id + '/board.json/'+this.id+'/', {
+      $.ajax('/board.json/'+this.id+'/', {
         success: $.proxy(this.load_success, this),
         dataType: 'json',
       });
@@ -136,7 +136,7 @@
     }
 
     this.save_data = function(dialog, name){
-      var url = '/user/' + this.user_id + '/board/';
+      var url = '/board/';
       if(this.id != undefined && this.name == name){
         url += this.id+'/';
       }else{
@@ -167,6 +167,36 @@
 
     this.save_failure = function(dialog, data, textStatus, jqXHR){
         dialog.append($('<p>Save Unsuccessful</p>'));
+    }
+
+    this.add_to_history = function(row_index, col_index, ch, action){
+      var entry = {
+        'row_index': row_index,
+        'col_index': col_index,
+        'choice'   : ch,
+        'action'   : action
+      };
+      this.history.push(entry);
+      this.history_loc++;
+      this.history_most_recent = this.history_loc;
+    }
+
+    this.undo = function(){
+      if(this.history_loc >= 0){
+        var entry = this.history[this.history_loc];
+        var cell = this.rows[entry.row_index].cells[entry.col_index];
+        cell.undo(entry.choice, entry.action);
+        this.history_loc--;
+      }
+    }
+
+    this.redo = function(){
+      if(this.history_loc < this.history_most_recent){
+        this.history_loc++;
+        var entry = this.history[this.history_loc];
+        var cell = this.rows[entry.row_index].cells[entry.col_index];
+        cell.redo(entry.choice, entry.action);
+      }
     }
 
 //// solving functions
@@ -249,6 +279,8 @@
     this.rows = [];
     this.cols = [];
     this.tics = [];
+    this.history = [];
+    this.history_loc = -1;
     this.name = "Untitled"
     this.id = id;
     this.table_el = table_el; 
@@ -259,6 +291,8 @@
 
     return this;
   }
+
+  
 
 //// static functions
 
