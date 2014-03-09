@@ -26,7 +26,7 @@ class Cell(models.Model):
   def update(self, data):
     choice_data = data['choices']
     self.anchored = data['anchored']
-    self.logger.debug('setting anchored: %r' % self.anchored)
+    #self.logger.debug('setting anchored: %r' % self.anchored)
     for choice_val in range(1,10):
       if(choice_val in choice_data):
         self.logger.debug('adding choice: %d to row %d col %d' % (choice_val, self.row.row_index, self.cell_index))

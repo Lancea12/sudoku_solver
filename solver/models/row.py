@@ -19,7 +19,7 @@ class Row(models.Model):
 
   def update(self, data):
     cell_data = data['cells']
-    self.logger.debug('data len=%d cells len=%d' %(len(cell_data), len(self.cell_set.all()))) 
+    #self.logger.debug('data len=%d cells len=%d' %(len(cell_data), len(self.cell_set.all()))) 
     for cell in self.cell_set.extra(order_by = ['cell_index']):
       if(not cell.update(cell_data.__getitem__(cell.cell_index))):
         return False

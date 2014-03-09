@@ -108,6 +108,9 @@
       this.rows.forEach($.proxy(function(row){
         this.push(row.save_data());
       }, json_data.rows));
+      json_data.history = this.history;
+      json_data.history_loc = this.history_loc;
+      json_data.most_recent = this.most_recent;
 
       return JSON.stringify(json_data);
     }
@@ -133,6 +136,9 @@
           row.load_data(row_data)
         }
       }
+      this.history = board_data['history'];
+      this.history_loc = board_data['history_loc'];
+      this.most_recent = this.history_loc;
     }
 
     this.save_data = function(dialog, name){
@@ -176,9 +182,9 @@
         'choice'   : ch,
         'action'   : action
       };
-      this.history.push(entry);
       this.history_loc++;
-      this.history_most_recent = this.history_loc;
+      this.history[this.history_loc]=entry;
+      this.most_recent = this.history_loc;
     }
 
     this.undo = function(){
@@ -191,7 +197,7 @@
     }
 
     this.redo = function(){
-      if(this.history_loc < this.history_most_recent){
+      if(this.history_loc < this.most_recent){
         this.history_loc++;
         var entry = this.history[this.history_loc];
         var cell = this.rows[entry.row_index].cells[entry.col_index];
@@ -279,8 +285,9 @@
     this.rows = [];
     this.cols = [];
     this.tics = [];
-    this.history = [];
+    this.history = {};
     this.history_loc = -1;
+    this.most_recent = -1;
     this.name = "Untitled"
     this.id = id;
     this.table_el = table_el; 
