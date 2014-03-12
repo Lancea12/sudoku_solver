@@ -1,9 +1,9 @@
 (function($){
-  $.fn.clear_link_control = function(board){
-    this.control_link({board: board, title : 'Clear Unanchored Cells'});
+  $.fn.clear_link_control = function(controls){
+    this.control_link({controls: controls, title : 'Clear Unanchored Cells'});
 
     this.click($.proxy(function(event){
-      this.board.clear();
+      this.controls.board.clear();
     }, this));
 
     this.addClass('ui-icon-scissors');

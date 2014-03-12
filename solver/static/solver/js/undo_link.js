@@ -1,9 +1,15 @@
 (function($){
-  $.fn.undo_link_control = function(board){
-    this.control_link({board: board, title : 'Undo'});
+  $.fn.undo_link_control = function(controls){
+    this.control_link({controls: controls, title : 'Undo'});
 
     this.click($.proxy(function(event){
-      this.board.undo();
+      this.controls.board.undo();
+      if(!this.controls.board.can_undo()){
+        this.addClass('ui-state-disabled');
+      }
+      if(this.controls.board.can_redo()){
+        this.controls.redo_link.removeClass('ui-state-disabled');
+      }
     }, this));
 
     this.addClass('ui-icon-arrowreturnthick-1-w');

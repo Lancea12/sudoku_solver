@@ -25,43 +25,44 @@
 
       col = $('<td></td>');
       row.append(col);
-      var solve_button = $('<a></a>').solve_link_control(board);
+      var solve_button = $('<a></a>').solve_link_control(this);
       col.append(solve_button);
 
       col = $('<td></td>');
       row.append(col);
-      var anchor_button = $('<a></a>').anchor_link_control(board);
+      var anchor_button = $('<a></a>').anchor_link_control(this);
       col.append(anchor_button);
 
       col = $('<td></td>');
       row.append(col);
-      var clear_button = $('<a></a>').clear_link_control(board);
+      var clear_button = $('<a></a>').clear_link_control(this);
       col.append(clear_button);
 
       col = $('<td></td>');
       row.append(col);
-      var undo_button = $('<a></a>').undo_link_control(board);
-      col.append(undo_button);
+      this.undo_link = $('<a></a>').undo_link_control(this);
+      col.append(this.undo_link);
       
       col = $('<td></td>');
       row.append(col);
-      var redo_button = $('<a></a>').redo_link_control(board);
-      col.append(redo_button);
+      this.redo_link = $('<a></a>').redo_link_control(this);
+      col.append(this.redo_link);
 
       col = $('<td></td>');
       row.append(col);
-      var load_link = $('<a></a>').load_link_control(board);
+      var load_link = $('<a></a>').load_link_control(this);
       col.append(load_link);
 
       col = $('<td></td>');
       row.append(col);
-      var save_link = $('<a></a>').save_link_control(board);
+      var save_link = $('<a></a>').save_link_control(this);
       col.append(save_link);
       
     }
 
     this.number_buttons = [];
     this.board = board;
+    this.board.controls = this;
     this.table_el = table_el;
     this.build_controls();
 

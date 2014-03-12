@@ -139,6 +139,10 @@
       this.history = board_data['history'];
       this.history_loc = board_data['history_loc'];
       this.most_recent = this.history_loc;
+      this.controls.redo_link.addClass('ui-state-disabled');
+      if(!this.can_undo()){
+        this.controls.undo_link.addClass('ui-state-disabled');
+      }
     }
 
     this.save_data = function(dialog, name){
@@ -185,10 +189,11 @@
       this.history_loc++;
       this.history[this.history_loc]=entry;
       this.most_recent = this.history_loc;
+      this.controls.redo_link.addClass('ui-state-disabled');
     }
 
     this.undo = function(){
-      if(this.history_loc >= 0){
+      if(this.can_undo()){
         var entry = this.history[this.history_loc];
         var cell = this.rows[entry.row_index].cells[entry.col_index];
         cell.undo(entry.choice, entry.action);
@@ -196,13 +201,21 @@
       }
     }
 
+    this.can_undo = function(){
+      return (this.history_loc >= 0);
+    }
+
     this.redo = function(){
-      if(this.history_loc < this.most_recent){
+      if(this.can_redo()){
         this.history_loc++;
         var entry = this.history[this.history_loc];
         var cell = this.rows[entry.row_index].cells[entry.col_index];
         cell.redo(entry.choice, entry.action);
       }
+    }
+
+    this.can_redo = function(){
+      return (this.history_loc < this.most_recent);
     }
 
 //// solving functions
