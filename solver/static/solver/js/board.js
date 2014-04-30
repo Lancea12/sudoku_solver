@@ -146,8 +146,11 @@
     }
 
     this.save_data = function(dialog, name){
+      if(dialog==undefined){
+        dialog = null;
+      }
       var url = '/board/';
-      if(this.id != undefined && this.name == name){
+      if(this.id != undefined && (name == undefined || this.name == name)){
         url += this.id+'/';
       }else{
         this.name = name;
@@ -168,7 +171,9 @@
     this.save_success = function(dialog, data, textStatus, jqXHR){
       if(data['saved']){
         this.id = data['board_id'];
-        dialog.dialog('close');
+        if(dialog != null){
+          dialog.dialog('close');
+        }
         this.setup_keystroke_handler();
       }else{
         this.save_failure(dialog, data, textStatus, jqXHR);
@@ -176,7 +181,9 @@
     }
 
     this.save_failure = function(dialog, data, textStatus, jqXHR){
-        dialog.append($('<p>Save Unsuccessful</p>'));
+        if(dialog != null){
+          dialog.append($('<p>Save Unsuccessful</p>'));
+        }
     }
 
     this.add_to_history = function(row_index, col_index, ch, action){
@@ -301,7 +308,7 @@
     this.history = {};
     this.history_loc = -1;
     this.most_recent = -1;
-    this.name = "Untitled"
+    this.name = null;
     this.id = id;
     this.table_el = table_el; 
     this.selected_cell = null;

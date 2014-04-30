@@ -43,7 +43,6 @@ class Solver_Auth_Backend(object):
     cs = Util.get_client_secrets()
     credential = credentials_from_code(cs['client_id'], cs['client_secret'],
       'https://www.googleapis.com/auth/plus.me', code)
-    self.logger.debug('here2')
     google_user_info = self.get_google_user_info(credential)
     self.logger.debug('name: %s' % (google_user_info['name']))
     (user, created) = User.objects.get_or_create(username=str(id_token['sub']),
@@ -54,6 +53,7 @@ class Solver_Auth_Backend(object):
     self.logger.debug('created storage')
     try:
       storage.put(credential)
+      self.logger.debug('stored credential')
     except Exception as e:
       print(e)
     self.logger.debug('stored credntial')
@@ -67,10 +67,15 @@ class Solver_Auth_Backend(object):
     http = httplib2.Http()
     http = credential.authorize(http)
     service = build("plus", "v1", http=http)
-    self.logger.debug(dir(service))
     google_id = credential.id_token['sub']
+    self.logger.debug('here1')
     people = service.people()
-    google_user_info = people.get(userId='me').execute()
+    self.logger.debug('here2')
+    try:
+      google_user_info = people.get(userId='me').execute()
+    except Exception as e:
+      print(e)
+    self.logger.debug('here3')
     return google_user_info
   
   

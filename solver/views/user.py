@@ -31,7 +31,8 @@ def index(request, id=-1):
       return check
     user = User.objects.get(id=id)
   template = loader.get_template('index.html')
-  context = RequestContext(request, {'board_list' : user.board_set.values()})
+  context = RequestContext(request, {'my_boards' : user.board_set.values(), 
+                                     'shared_boards' : user.shared_with_me.values()})
   return HttpResponse(template.render(context))
 
 def login(request):

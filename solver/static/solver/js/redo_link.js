@@ -3,6 +3,9 @@
     this.control_link({controls: controls, title : 'Redo'});
 
     this.click($.proxy(function(event){
+      if(!this.controls.board.can_redo()){
+        return;
+      }
       this.controls.board.redo();
       if(!this.controls.board.can_redo()){
         this.addClass('ui-state-disabled')

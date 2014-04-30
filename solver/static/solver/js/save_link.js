@@ -3,8 +3,7 @@
     this.control_link({controls: controls, title: 'Save'});
 
     this.click($.proxy(function(event){
-      this.controls.board.remove_keystroke_handler();
-      $(document.body).save_dialog(board);
+      this.controls.board.save_data();
     }, this));
 
     this.addClass('ui-icon-disk');

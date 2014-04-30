@@ -58,6 +58,11 @@
       var save_link = $('<a></a>').save_link_control(this);
       col.append(save_link);
       
+      col = $('<td></td>');
+      row.append(col);
+      var save_as_link = $('<a></a>').save_as_link_control(this);
+      col.append(save_as_link);
+      
     }
 
     this.number_buttons = [];

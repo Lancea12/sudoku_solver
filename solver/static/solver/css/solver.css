@@ -71,7 +71,7 @@
   background-color:lightblue;
 }
 
-#board_name {
+#my_boards {
   position: relative;
   left: 25px;
 }
@@ -112,5 +112,5 @@ h3 {
 #nav_div {
   position: absolute;
   top: 10px;
-  left: 90%;
+  left: 80%;
 }

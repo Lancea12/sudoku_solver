@@ -14,11 +14,13 @@ from django.contrib.auth.models import User
 logger = logging.getLogger('solver')
 
 def board_check(request, board_id):
-  if(board_id != -1 and len(request.user.board_set.filter(id=int(board_id))) == 0):
+  board_id = int(board_id)
+  if(board_id != -1 and \
+    len(request.user.board_set.filter(id=board_id)) == 0 and 
+    len(request.user.shared_with_me.filter(id=board_id)) == 0):
     template = loader.get_template('forbidden.html')
     return HttpResponseForbidden(template.render(RequestContext(request, {})))
   return None
-
 
 @login_required
 def show(request, board_id):
@@ -27,7 +29,7 @@ def show(request, board_id):
     return check
   if(request.method == "PUT" or request.method == "POST"):
     return update(request, board_id)
-  (board,created) = request.user.board_set.get_or_create(id=board_id)
+  board = Board.objects.get(id=board_id)
   return HttpResponse(json.dumps({'user_id' : request.user.id, 'board' : board.context()}))
 
 @login_required
@@ -38,9 +40,13 @@ def create(request):
 @login_required
 def update(request, board_id):
   check = board_check(request, board_id)
-  if check != None:
+  if check != None or (not request.user.solver_user_info.is_writable(board_id)):
     return check
-  (board, created) = request.user.board_set.get_or_create(user=user, id=board_id)
+  if(request.user.board_set.filter(id=int(board_id))):
+    board = request.user.board_set.get(id=int(board_id))
+  else:
+    board = request.user.shared_with_me.get(id=int(board_id))
+    
   return update_helper(request, request.user, board)
   
 def update_helper(request, user, board):

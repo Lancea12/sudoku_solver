@@ -10,6 +10,7 @@ class Board(models.Model):
   name = models.CharField(max_length=255)
   anchored = models.BooleanField(default=False)
   history_loc = models.IntegerField(default=-1)
+  shared_with = models.ManyToManyField(User, related_name='shared_with_me', through='Board_Share')
 
   logger = logging.getLogger('solver')
 
