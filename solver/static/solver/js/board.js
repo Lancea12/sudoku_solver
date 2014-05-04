@@ -126,7 +126,12 @@
       var board_data = data['board'];
       var rows = board_data['rows'];
       this.name = board_data['name'];
-      $('#board_name').html(this.name);
+      this.is_writable = data['writable'];
+      var qualifier = '';
+      if(!this.is_writable){
+        qualifier = ' (read only)';
+      }
+      $('#board_name').html(this.name + qualifier);
       this.id = board_data['id'];
       this.base_anchored = board_data['anchored'];
       for(var row_index=0; row_index<9; row_index++){

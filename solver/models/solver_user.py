@@ -28,7 +28,6 @@ class Solver_User_Info(models.Model):
     board_id = int(board_id)
     if(board_id == -1):
       return False
-    self.logger.debug(dir(self.user))
     if(len(self.user.board_set.filter(id=board_id)) > 0):
       return True
     elif(len(self.user.shared_with_me.filter(id=board_id)) > 0):

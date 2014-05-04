@@ -21,6 +21,26 @@
   padding:0px;
 }
 
+.single_col {
+  width:1000px;
+}
+
+.left_col {
+  width:400px;
+}
+
+.right_col {
+  width:600px;
+}
+
+.board_name_cell {
+  text-align:left;
+}
+
+.owner_name_cell {
+  text-align:left;
+}
+
 .cell_table {
   border-collapse:collapse;
 }

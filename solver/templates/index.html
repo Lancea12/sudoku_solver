@@ -12,11 +12,11 @@ $(function(fn){
     <table id='board_list_table'>
     {% for board in my_boards %}
       <tr id='board_{{board.id}}' class={% cycle 'first_row' 'second_row' %}>
-        <td class='board_name_cell'>{{ board.name  }}</td>
-        <td><span><a class='board_icon ui-icon ui-icon-pencil' 
-             href='/board.html/{{ board.id }}/'></a></td>
-        <td><a class='board_icon ui-icon ui-icon-trash' 
-             href='javascript:delete_board({{ board.id }});'></a></td>
+        <td class='board_name_cell single_col'>{{ board.name  }}</td>
+        <td><span><a class='board_icon ui-icon ui-icon-folder-open' 
+             href='/board.html/{{ board.id }}/'></a></span></td>
+        <td><span><a class='board_icon ui-icon ui-icon-trash' 
+             href='javascript:delete_board({{ board.id }});'></a></span></td>
       </tr>
     {% endfor %}
       <tr>
@@ -28,13 +28,21 @@ $(function(fn){
     </table>
     <h3 id='shared_boards'>Puzzles Shared With Me:</h3>
     <table id='board_list_table'>
+      <tr>
+        <th class='board_name_cell left_col'>Name</th>
+        <th class='owner_name_cell right_col'>Owner</th>
+        <th></th>
+        <th></th>
+      </tr>
     {% for board in shared_boards %}
       <tr id='board_{{board.id}}' class={% cycle 'first_row' 'second_row' %}>
-        <td class='board_name_cell'>{{ board.name  }}</td>
-        <td><span><a class='board_icon ui-icon ui-icon-pencil' 
-             href='/board.html/{{ board.id }}/'></a></td>
-        <td><a class='board_icon ui-icon ui-icon-trash' 
-             href='javascript:delete_board({{ board.id }});'></a></td>
+        <td class='board_name_cell left_col'>{{ board.name  }}</td>
+        <td class='owner_name_cell right_col'>{{ board.user__first_name }}
+          {{ board.user__last_name}}</td>
+        <td><span><a class='board_icon ui-icon ui-icon-folder-open' 
+             href='/board.html/{{ board.id }}/'></a></span></td>
+        <td><span><a class='board_icon ui-icon ui-icon-trash' 
+             href='javascript:delete_board({{ board.id }});'></a></span></td>
       </tr>
     {% endfor %}
     </table>

@@ -30,7 +30,9 @@ def show(request, board_id):
   if(request.method == "PUT" or request.method == "POST"):
     return update(request, board_id)
   board = Board.objects.get(id=board_id)
-  return HttpResponse(json.dumps({'user_id' : request.user.id, 'board' : board.context()}))
+  is_writable = request.user.solver_user_info.is_writable(board_id)
+  return HttpResponse(json.dumps({'user_id' : request.user.id, \
+      'board' : board.context(), 'writable': is_writable}))
 
 @login_required
 def create(request):
