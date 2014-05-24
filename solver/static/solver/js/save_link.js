@@ -7,10 +7,10 @@
     }, this));
 
     this.addClass('ui-icon-disk');
-    if(!this.controls.board.is_writable){
-      this.addClass('ui-state-disabled');;
-    }else{
+    if(this.controls.board.is_writable){
       this.remove_class('ui-state-disable');
+    }else{
+      this.addClass('ui-state-disabled');;
     }
 
     return this;

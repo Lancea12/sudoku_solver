@@ -177,7 +177,7 @@
       if(data['saved']){
         this.id = data['board_id'];
         if(dialog != null){
-          dialog.dialog('close');
+          dialog.build_success_dialog();
         }
         this.setup_keystroke_handler();
       }else{
@@ -186,9 +186,13 @@
     }
 
     this.save_failure = function(dialog, data, textStatus, jqXHR){
-        if(dialog != null){
-          dialog.append($('<p>Save Unsuccessful</p>'));
-        }
+      var reason = 'Error';
+      if(data.status == 403){
+        reason = 'Permission Denied';
+      }
+      $(document.body).save_dialog(this.controls.board, 
+        {dialog_type:'failure_dialog',
+         reason:reason});
     }
 
     this.add_to_history = function(row_index, col_index, ch, action){

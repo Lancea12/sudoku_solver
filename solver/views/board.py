@@ -13,14 +13,25 @@ from django.contrib.auth.models import User
 
 logger = logging.getLogger('solver')
 
-def board_check(request, board_id):
+
+# check whether the logged in user can access to the given board_id
+# board_id of -1 means new board
+def board_check(request, board_id, write=False):
   board_id = int(board_id)
-  if(board_id != -1 and \
-    len(request.user.board_set.filter(id=board_id)) == 0 and 
-    len(request.user.shared_with_me.filter(id=board_id)) == 0):
-    template = loader.get_template('forbidden.html')
-    return HttpResponseForbidden(template.render(RequestContext(request, {})))
-  return None
+
+  logger.debug('board id = %d' % board_id)
+  if board_id == -1:
+    return None
+
+  if len(request.user.board_set.filter(id=board_id)) > 0:
+    return None 
+  
+  if len(request.user.shared_with_me.filter(id=board_id)) > 0 and \
+    (not write or request.user.solver_user_info.is_writable(board_id)):
+    return None
+
+  template = loader.get_template('forbidden.html')
+  return HttpResponseForbidden(template.render(RequestContext(request, {})))
 
 @login_required
 def show(request, board_id):
@@ -41,8 +52,8 @@ def create(request):
 
 @login_required
 def update(request, board_id):
-  check = board_check(request, board_id)
-  if check != None or (not request.user.solver_user_info.is_writable(board_id)):
+  check = board_check(request, board_id, True)
+  if check != None:
     return check
   if(request.user.board_set.filter(id=int(board_id))):
     board = request.user.board_set.get(id=int(board_id))

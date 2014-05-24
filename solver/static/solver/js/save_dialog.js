@@ -3,14 +3,19 @@
     if(options == null){
       options = {};
     }
-    var di = $("<div id='save_dialog' title='Save Board'></div>").dialog();
+    var di = $("<div id='save_dialog' title='Save Board'></div>").dialog({
+      minWidth: 400});
     var opts = $.extend(this, di);
+    var opts = $.extend(this, options);
 
-    this.build_dialog = function (){
+
+    this.build_query_dialog = function (){
       //if(this.board.name == null){
       //  this.board.name = new Date().toString();
       //}
       var name = this.board.name != null ? this.board.name : "";
+      this.title += 'As';
+      this.append(intro);
       this.text = $('<input type="text" value="'+name+'"></input>');
       this.append(this.text);
       var lb = $('<button>Save</button>');
@@ -28,10 +33,22 @@
 
     }
 
+    this.build_success_dialog = function(){
+      this.text = $('<input type="text" value="'+name+'"></input>');
+      this.append(this.text);
+    }
+
+    this.build_failure_dialog = function(){
+      this.text = $('<p>Save Failed: ' + this.reason +'<p>');
+      this.append(this.text);
+    }
+
     this.list_success = function(data, textStatus, jqXHR){
-      this.exists = false;
+      if(!this.hasAttribute('exists')){
+        this.exists = false;
+      }
       var list = data.boards;
-      if(this.text.val() != this.board.name){
+      if(this.text.val() != this.board.name && ! this.exists){
         list.forEach($.proxy(function(val){
           if(val['name'] == this.text.val() && val['id'] != board.id){
             this.append($('<p>already exists</p>'));
@@ -48,7 +65,11 @@
     this.exists = false;
     this.text = null;
     this.board = board;
-    this.build_dialog();
+    this.dialog_builder = this.build_query_dialog;
+    if(this.dialog_type != null){
+      this.dialog_builder = this['build_' + this.dialog_type];
+    }
+    this.dialog_builder();
 
     return this;
   }

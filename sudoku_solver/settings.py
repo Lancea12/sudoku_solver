@@ -38,9 +38,9 @@ STATICFILES_DIRS = (
 SECRET_KEY = 'etrhh_9@d$p8i=)kb3#0sal1+cfd9-!r+2$mb48toj%4pc90bn'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-TEMPLATE_DEBUG = True
+TEMPLATE_DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -93,21 +93,21 @@ USE_TZ = True
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
-    'handlers': {
-        'file': {
-            'level': 'DEBUG',
-            'class': 'logging.FileHandler',
-            'filename': 'solver.log',
-        },
-    },
-    'loggers': {
-        'solver': {
-            'handlers': ['file'],
-            #'level': 'WARNING',
-            'level': 'DEBUG',
-            'propagate': True,
-        },
-    },
+    #'handlers': {
+    #    'file': {
+    #        'level': 'DEBUG',
+    #        'class': 'logging.FileHandler',
+    #        'filename': 'solver.log',
+    #    },
+    #},
+    #'loggers': {
+    #    'solver': {
+    #        'handlers': ['file'],
+    #        #'level': 'WARNING',
+    #        'level': 'DEBUG',
+    #        'propagate': True,
+    #    },
+    #},
 }
 
 AUTHENTICATION_BACKENDS = ('solver.models.solver_auth_backend.Solver_Auth_Backend',)
