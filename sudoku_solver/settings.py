@@ -100,14 +100,14 @@ LOGGING = {
     #        'filename': 'solver.log',
     #    },
     #},
-    #'loggers': {
-    #    'solver': {
+    'loggers': {
+        'solver': {
     #        'handlers': ['file'],
-    #        #'level': 'WARNING',
-    #        'level': 'DEBUG',
-    #        'propagate': True,
-    #    },
-    #},
+            #'level': 'WARNING',
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+    },
 }
 
 AUTHENTICATION_BACKENDS = ('solver.models.solver_auth_backend.Solver_Auth_Backend',)
