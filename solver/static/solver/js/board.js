@@ -150,12 +150,12 @@
       }
     }
 
-    this.save_data = function(dialog, name){
+    this.save_data = function(dialog, name, id){
       if(dialog==undefined){
         dialog = null;
       }
       var url = '/board/';
-      if(this.id != undefined && (name == undefined || this.name == name)){
+      if(id != undefined && (name == undefined || this.name == name)){
         url += this.id+'/';
       }else{
         this.name = name;
@@ -177,7 +177,8 @@
       if(data['saved']){
         this.id = data['board_id'];
         if(dialog != null){
-          dialog.build_success_dialog();
+          dialog.close();
+          $(document.body).save_dialog(this.controls.board, {dialog_type: 'success'});
         }
         this.setup_keystroke_handler();
       }else{

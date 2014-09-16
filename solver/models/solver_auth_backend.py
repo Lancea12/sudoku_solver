@@ -25,7 +25,7 @@ class Solver_Auth_Backend(object):
   logger = logging.getLogger('solver')
   
   def authenticate(self, token=None):
-    #self.logger.debug('authenticating')
+    self.logger.debug('authenticating')
     cs = Util.get_client_secrets()
     #self.logger.debug('cs key: %s' % (cs.keys()) )
     self.logger.debug('client_id = %s' % (cs['client_id']))
@@ -66,7 +66,9 @@ class Solver_Auth_Backend(object):
   def get_google_user_info(self, credential):
     http = httplib2.Http()
     http = credential.authorize(http)
+    self.logger.debug('after authorize')
     service = build("plus", "v1", http=http)
+    self.logger.debug('after build')
     google_id = credential.id_token['sub']
     self.logger.debug('here1')
     people = service.people()

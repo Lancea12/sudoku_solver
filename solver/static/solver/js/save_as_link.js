@@ -4,7 +4,7 @@
 
     this.click($.proxy(function(event){
       this.controls.board.remove_keystroke_handler();
-      $(document.body).save_dialog(this.controls.board);
+      $(document.body).save_dialog(this.controls.board, {title: 'Save Board As'});
     }, this));
 
     this.addClass('ui-icon-wrench');

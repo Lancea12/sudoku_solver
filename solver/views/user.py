@@ -37,9 +37,10 @@ def index(request, id=-1):
   return HttpResponse(template.render(context))
 
 def login(request):
+  logger.debug('login')
   if(request.method == "PUT" or request.method == "POST"):
-    #logger.debug(request.POST.keys())
-    #logger.debug(request.POST.values())
+    logger.debug(request.POST.keys())
+    logger.debug(request.POST.values())
     if(request.POST.has_key('code') and 
       #request.POST.has_key('login_method') and 
       #request.POST['login_method'] == 'PROMPT' and
