@@ -1,14 +1,8 @@
-from django.http import HttpResponse
-from django.http import HttpResponseForbidden
-from django.template import RequestContext, loader
-from django.dispatch import receiver
-from django.db.models.signals import post_save
-from django.contrib.auth.decorators import login_required
-from solver.views import user
+from .. import app
 import json
 import logging
 
-from solver.models.board import Board
+from ..models.board import Board
 from django.contrib.auth.models import User
 
 logger = logging.getLogger('solver')
@@ -82,7 +76,7 @@ def list(request):
   return HttpResponse(json.dumps(user_context))
 
 
-@login_required
+@app.route('/board.html')
 def index(request, board_id=-1):
   check = board_check(request, board_id)
   if check != None:

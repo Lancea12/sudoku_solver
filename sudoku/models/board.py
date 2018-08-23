@@ -1,12 +1,11 @@
-from django.db import models
-from django.db.models.signals import post_save
-from django.dispatch import receiver
-from django.contrib.auth.models import User
+from ..main import db
 import math
 import logging
 
-class Board(models.Model):
-  user = models.ForeignKey(User)
+class Board(db.Model):
+  #user = models.ForeignKey(User)
+  user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
+  user = db.relationship('User', backref=db.backref('boards', lazy=True))
   name = models.CharField(max_length=255)
   anchored = models.BooleanField(default=False)
   history_loc = models.IntegerField(default=-1)

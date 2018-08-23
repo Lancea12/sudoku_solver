@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block main_script %}
+  <script>
+$(function(fn){
+
+  var board_el = $('#board_table');
+  var id = {{ board_id }};
+  if(id == -1){
+    id = null;
+  }
+  var bt = $(document.body).board_table(board_el, {{ user_id }}, id);
+  if(bt.id != null){
+    bt.load_data();
+  }
+  var controls_el = $('#controls_table')
+  var con = $(document.body).board_controls(controls_el, bt);
+  var con_div = $('#controls_div');
+  if(window.innerWidth > window.innerHeight){
+    con_div.offset({left: 420, top: 100});
+  }else{
+    con_div.offset({left: 50, top: 500});
+  }
+})
+  </script>
+{% endblock %}
+
+
+{% block main_content %}
+  <div id='board_div'>
+    <h3 id='board_name'>Untitled</h3>
+    <table id='board_table'>
+    </table>
+  </div>
+  <div id='controls_div'>
+    <table id='controls_table'>
+    </table>
+  </div>
+{% endblock %}

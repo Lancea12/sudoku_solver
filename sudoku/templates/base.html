@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Sudoku Solver</title>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+  <link href='/static/css/solver.css' rel='stylesheet' type='text/css'></link>
+  <script src="http://code.jquery.com/jquery-2.0.3.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  <script src='/static/js/cell.js'> </script>
+  <script src='/static/js/group.js'> </script>
+  <script src='/static/js/row.js'> </script>
+  <script src='/static/js/col.js'> </script>
+  <script src='/static/js/tic.js'> </script>
+  <script src='/static/js/board.js'> </script>
+  <script src='/static/js/save_dialog.js'> </script>
+  <script src='/static/js/generate_dialog.js'> </script>
+  <script src='/static/js/control_button.js'> </script>
+  <script src='/static/js/control_link.js'> </script>
+  <script src='/static/js/num_button.js'> </script>
+  <script src='/static/js/solve_link.js'> </script>
+  <script src='/static/js/generate_link.js'> </script>
+  <script src='/static/js/anchor_link.js'> </script>
+  <script src='/static/js/clear_link.js'> </script>
+  <script src='/static/js/undo_link.js'> </script>
+  <script src='/static/js/redo_link.js'> </script>
+  <script src='/static/js/load_link.js'> </script>
+  <script src='/static/js/save_link.js'> </script>
+  <script src='/static/js/save_as_link.js'> </script>
+  <script src='/static/js/controls.js'> </script>
+  <script src='/static/js/util.js'> </script>
+  {% block main_script %}
+  {% endblock %}
+</head>
+<body>
+  <h2>All your sudoku are belong to us</h2>
+  {% block main_content %}
+  {% endblock %}
+  <div id='nav_div'>
+    {% if user.is_authenticated %}
+      {{ user.first_name }} {{ user.last_name }} <br>
+      <a href='/accounts/logout'>logout</a>|
+    {% endif %}
+    <a href='/'>home</a>
+  </div>
+  <div id='ads_div'>
+  </div>
+</body>
+</html>
+
